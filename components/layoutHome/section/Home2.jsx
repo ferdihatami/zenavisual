@@ -18,7 +18,7 @@ const Home2 = () => {
         <div className="md:flex lg:space-y-0 space-y-10 md:justify-center gap-x-5">
           <div className="rounded-lg shadow-lg bg-white max-w-sm min-h-[40vh] md:max-w-[250px] ">
             <a href="#!">
-              <img className="rounded-t-lg" src="/image/undangan.jpg" alt="" />
+              <img className="rounded-t-lg" src="/Image/undangan.jpg" alt="" />
             </a>
             <div className="px-5 py-5">
               <button className="text-gray-900 font-medium mb-3 flex gap-x-3 lg:text-[1.2rem] text-[1.2rem]">
@@ -36,7 +36,7 @@ const Home2 = () => {
             <a href="#!">
               <img
                 className="rounded-t-lg"
-                src="/image/scan.jpg"
+                src="/Image/scan.jpg"
                 alt="Scan Undangan"
               />
             </a>
@@ -56,7 +56,7 @@ const Home2 = () => {
             <a href="#!">
               <img
                 className="rounded-t-lg"
-                src="/image/instagram.jpg"
+                src="/Image/instagram.jpg"
                 alt="Scan Undangan"
               />
             </a>

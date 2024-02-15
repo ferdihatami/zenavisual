@@ -43,7 +43,7 @@ const Home1 = () => {
       </div>
       <div className="mx-5">
         <Image
-          src="/image/banner1.png"
+          src="/Image/banner1.png"
           width={700}
           height={700}
           alt="Wedding invitation"

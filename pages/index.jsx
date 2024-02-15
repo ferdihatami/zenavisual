@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <title>Undangan Digital Online Website</title>
-        <link rel="icon" href="/logo/zenalogo.png" />
+        <link rel="icon" href="/Logo/zenalogo.png" />
       </Head>
       <Layout>
         <Home1 />
