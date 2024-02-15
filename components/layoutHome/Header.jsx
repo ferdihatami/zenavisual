@@ -11,7 +11,7 @@ const Header = () => {
         <Link href={"/"}>
           <img
             className="cursor-pointer "
-            src="/logo/zenavisual.png"
+            src="/Logo/zenavisual.png"
             alt="zenavisual"
             width="230"
             height="50"
