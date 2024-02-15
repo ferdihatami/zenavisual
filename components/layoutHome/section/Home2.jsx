@@ -14,14 +14,14 @@ const Home2 = () => {
         <p>impian dengan semua yang kamu butuhkan</p>
       </div>
 
-      <div className="relative mt-10">
-        <div className="md:flex lg:space-y-0 space-y-10 md:justify-center gap-x-5">
-          <div className="rounded-lg shadow-lg bg-white max-w-sm min-h-[40vh] md:max-w-[250px] ">
+      <div className="mt-10">
+        <div className="lg:flex lg:space-y-0 lg:mx-0 md:mx-[250px] space-y-10 justify-center gap-x-5">
+          <div className="rounded-lg shadow-lg bg-white max-w-sm lg:max-w-[250px]">
             <a href="#!">
               <img className="rounded-t-lg" src="/Image/undangan.jpg" alt="" />
             </a>
             <div className="px-5 py-5">
-              <button className="text-gray-900 font-medium mb-3 flex gap-x-3 lg:text-[1.2rem] text-[1.2rem]">
+              <button className="text-gray-900 font-medium mb-3 flex gap-x-3 lg:text-[1.2rem] sm:text-[1rem] text-[1.2rem]">
                 Undangan Digital
                 <i className="bx bx-right-arrow-alt lg:text-[1.5rem] text-[1.5rem]"></i>
               </button>
@@ -32,7 +32,7 @@ const Home2 = () => {
             </div>
           </div>
 
-          <div className="rounded-lg shadow-lg bg-white max-w-sm min-h-[40vh] md:max-w-[250px]">
+          <div className="rounded-lg shadow-lg bg-white max-w-sm lg:max-w-[250px] ">
             <a href="#!">
               <img
                 className="rounded-t-lg"
@@ -41,7 +41,7 @@ const Home2 = () => {
               />
             </a>
             <div className="px-5 py-5">
-              <button className="text-gray-900 font-medium mb-3 flex gap-x-3 lg:text-[1.2rem] text-[1.2rem]">
+              <button className="text-gray-900 font-medium mb-3 flex gap-x-3 lg:text-[1.2rem] sm:text-[1rem] text-[1.2rem]">
                 Check-in System
                 <i className="bx bx-right-arrow-alt lg:text-[1.5rem] text-[1.5rem]"></i>
               </button>
@@ -52,7 +52,7 @@ const Home2 = () => {
             </div>
           </div>
 
-          <div className="rounded-lg shadow-lg bg-white max-w-sm min-h-[40vh] md:max-w-[250px]">
+          <div className="rounded-lg shadow-lg bg-white max-w-sm lg:max-w-[250px]">
             <a href="#!">
               <img
                 className="rounded-t-lg"
@@ -61,7 +61,7 @@ const Home2 = () => {
               />
             </a>
             <div className="px-5 py-5">
-              <button className="text-gray-900 font-medium mb-3 flex gap-x-3 lg:text-[1.2rem] text-[1.2rem]">
+              <button className="text-gray-900 font-medium mb-3 flex gap-x-3 lg:text-[1.2rem] sm:text-[1rem] text-[1.2rem]">
                 Filter Instagram
                 <i className="bx bx-right-arrow-alt lg:text-[1.5rem] text-[1.5rem]"></i>
               </button>
