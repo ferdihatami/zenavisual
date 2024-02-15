@@ -5,8 +5,8 @@ import { useRouter } from "next/router";
 const Footer = () => {
   const router = useRouter();
   return (
-    <div>
-      <ul className="flex lg:hidden items-center justify-center bg-white w-auto lg:pl-0 pl-3">
+    <div className="sticky z-50 bottom-0">
+      <ul className="flex lg:hidden items-center justify-center bg-white w-auto lg:pl-0 pl-3 p-3">
         <li className="mx-2 flex space-x-10">
           <Link href={"/"} className="">
             <div
