@@ -1,0 +1,60 @@
+[
+    {
+        "display_name": "Dashboard",
+        "icon": "bx bx-grid-alt",
+        "route": "/admin/dashboard"
+    },
+
+    {
+        "display_name": "Postingan",
+        "icon": "bx bx-laptop",
+        "childrens": [
+            {
+                "nama": "Artikel Halal",
+                "icon": "bx bx-minus",
+                "route": "/admin/artikel"
+            },
+            {
+                "nama": "Berita Halal",
+                "icon": "bx bx-minus",
+                "route": "/admin/berita"
+            }
+        ]
+    },
+    {
+        "display_name": "Upload Berkas",
+        "icon": "bx bx-upload",
+        "route": "/admin/berkas"
+    },
+    {
+        "display_name": "Sertifikat Halal",
+        "icon": "bx bx-certification",
+        "route": "/admin/sertifikat"
+    },
+    {
+        "display_name": "Messages",
+        "icon": "bx bx-chat",
+        "route": "/admin/message"
+    },
+    {
+        "display_name": "Images",
+        "icon": "bx bx-image-alt",
+        "childrens": [
+            {
+                "nama": "Gallery",
+                "icon": "bx bx-minus",
+                "route": "/admin/gallery"
+            },
+            {
+                "nama": "Slider",
+                "icon": "bx bx-minus",
+                "route": "/admin/slider"
+            }
+        ]
+    },
+    {
+        "display_name": "User",
+        "icon": "bx bx-user",
+        "route": "/admin/user"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "display_name": "Dashboard",
+        "icon": "bx bx-grid-alt",
+        "route": "/finance/dashboard"
+    },
+    {
+        "display_name": "Transaksi",
+        "icon": "bx bx-credit-card-front",
+        "childrens": [
+            {
+                "nama": "Uang Masuk",
+                "icon": "bx bx-circle",
+                "route": "/finance/uang-masuk"
+            },
+            {
+                "nama": "Uang Keluar",
+                "icon": "bx bx-circle",
+                "route": "/finance/uang-keluar"
+            },
+            {
+                "nama": "Salary",
+                "icon": "bx bx-circle",
+                "route": "/finance/salary"
+            }
+        ]
+    },
+    {
+        "display_name": "Inovice",
+        "icon": "bx bx-credit-card-alt",
+        "route": "/finance/invoice"
+    },
+    {
+        "display_name": "Laporan Transaksi",
+        "icon": "bx bx-folder",
+        "route": "/finance/laporan"
+    }
+]

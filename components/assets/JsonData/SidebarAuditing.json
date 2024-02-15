@@ -1,0 +1,44 @@
+[
+    {
+        "display_name": "Dashboard",
+        "icon": "bx bx-grid-alt",
+        "route": "/auditing/dashboard"
+    },
+    {
+        "display_name": "Permohonan",
+        "icon": "bx bx-border-all",
+        "route": "/auditing/permohonan"
+    },
+    {
+        "display_name": "Pembayaran",
+        "icon": "bx bx-dollar-circle",
+        "childrens": [
+            {
+                "nama": "Ajuan",
+                "icon": "bx bx-minus",
+                "route": "/auditing/pembayaran/ajuan-pembayaran"
+            },
+            {
+                "nama": "Info Pembayaran",
+                "icon": "bx bx-minus",
+                "route": "/auditing/pembayaran/info-pembayaran"
+            }
+    ]
+    },
+    {
+        "display_name": "Auditing",
+        "icon": "bx bx-layer",
+        "route": "/auditing/audit"
+    },
+    {
+        "display_name": "Status Pengajuan",
+        "icon": "bx bx-list-ol",
+        "route": "/auditing/status-pengajuan"
+    },
+
+    {
+        "display_name": "Surat Tugas",
+        "icon": "bx bx-food-menu",
+        "route": "/auditing/surat-tugas"
+    }
+]

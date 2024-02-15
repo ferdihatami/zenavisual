@@ -1,0 +1,28 @@
+[
+    {
+        "display_name": "Tema",
+        "route": "/tema"
+    },
+    {
+        "display_name": "Portofolio",
+        "route": "/portofolio"
+    },
+    {
+        "display_name": "Harga",
+        "route": "/harga"
+    },
+    {
+        "display_name": "Tutorial",
+        "route": "/tutorial"
+    },
+    {
+        "display_name": "Blog",
+        "route": "/blog"
+    },
+    {
+        "display_name": "Promo",
+        "route": "/promo"
+    }
+    
+    
+]

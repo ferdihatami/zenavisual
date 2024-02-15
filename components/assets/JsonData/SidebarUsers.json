@@ -1,0 +1,12 @@
+[
+    {
+        "display_name": "Dashboard",
+        "icon": "bx bx-grid-alt",
+        "route": "/auditor/dashboard"
+    },
+    {
+        "display_name": "Surat Tugas",
+        "icon": "bx bx-folder",
+        "route": "/auditor/surat-tugas"
+    }
+]

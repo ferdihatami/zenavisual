@@ -1,0 +1,32 @@
+[
+    {
+        "nama": "ALFERDIAN HATAMI, S.Pi",
+        "img": "/auditor/ferdi.jpg",
+        "Pendidikan": "Sarjana Perikanan"
+    },
+    {
+        "nama": "ROSI JAYADI, S.Pd",
+        "img": "/auditor/avatar.jpg",
+        "Pendidikan": "Sarjana Pendidikan"
+    },
+    {
+        "nama": "IRWAN JAYADI, S.Si",
+        "img": "/auditor/irwan.png",
+        "Pendidikan": "Sarjana Sains"
+    },
+    {
+        "nama": "YUDI SETIAWAN, S.TP",
+        "img": "/auditor/yudi.jpeg",
+        "Pendidikan": "Sarjana Teknologi Pangan"
+    },
+    {
+        "nama": "BAIQ CANDRAYANI, ST",
+        "img": "/auditor/avatar.jpg",
+        "Pendidikan": "Sarjana Teknik Lingkungan"
+    },
+    {
+        "nama": "BAIQ YULIA H.P, S.Si, M.Sc",
+        "img": "/auditor/yulia.jpeg",
+        "Pendidikan": "Master Science"
+    }
+]
