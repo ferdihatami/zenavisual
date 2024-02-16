@@ -22,6 +22,26 @@ const Footer = () => {
             online digital berbasis website. Membuat undangan sesuai dengan
             imajinasimu hanya menggunakan telpon pintar kamu.
           </p>
+          <div className="flex mt-4 gap-x-3 md:mx-3 text-[1.8rem] mx-[114px]">
+            <Link
+              href={"https://www.facebook.com/zenavisual.id"}
+              target="_blank"
+            >
+              <i className="bx bxl-facebook-circle   hover:text-red-500"></i>
+            </Link>
+            <Link
+              href={"https://www.instagram.com/zenavisual.id"}
+              target="_blank"
+            >
+              <i className="bx bxl-instagram   hover:text-red-500"></i>
+            </Link>
+            <Link href={"/"}>
+              <i className="bx bxl-twitter   hover:text-red-500"></i>
+            </Link>
+            <Link href={"/"}>
+              <i className="bx bxl-linkedin   hover:text-red-500"></i>
+            </Link>
+          </div>
         </div>
         <div className="py-2 lg:w-[400px] md:w-[290px] lg:mx-16 md:mx-5 sm:mx-24">
           <p className="font-bold uppercase">Alamat</p>
