@@ -1,11 +1,61 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Footer = () => {
   const router = useRouter();
   return (
     <>
+      {/* Footer PC */}
+      <div className="md:flex bg-slate-600 pt-20 pb-5 justify-center text-white md:text-left text-center md:space-y-0 space-y-4">
+        <div className="lg:w-[400px] md:w-[300px] md:mx-0 sm:mx-24 ">
+          <Image
+            src="/Logo/zenavisual-white.png"
+            width={220}
+            height={220}
+            alt="zenavisual.id"
+            className="mx-auto md:mx-0"
+          />
+          <p className="p-2 mt-5">
+            Zenavisual.id memberikan anda sebuah solusi untuk membuat undangan
+            online digital berbasis website. Membuat undangan sesuai dengan
+            imajinasimu hanya menggunakan telpon pintar kamu.
+          </p>
+        </div>
+        <div className="py-2 lg:w-[400px] md:w-[290px] lg:mx-16 md:mx-5 sm:mx-24">
+          <p className="font-bold uppercase">Alamat</p>
+          <p className="md:mt-8 mt-3">
+            Jl. Puring No.8, Mataram Barat., Kec. Selaparang, Kota Mataram, Nusa
+            Tenggara Barat
+          </p>
+        </div>
+        <div className="py-2 md:w-[150px]">
+          <p className="font-bold uppercase">Informasi</p>
+          <ul className="md:mt-8 mt-3 space-y-2">
+            <li>
+              <Link href="/tentang-kami">Tentang Kami</Link>
+            </li>
+            <li>
+              <Link href="/blog">Blog</Link>
+            </li>
+            <li>
+              <Link href="/kontak">Kontak</Link>
+            </li>
+            <li>
+              <Link href="/kebijakan-privasi">Kebijakan Privasi</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr width="30%" />
+      <div className=" bg-slate-600 py-4 justify-center text-white text-center">
+        <div className="text-[0.9rem]">
+          © All rights reserved. PT. Zena Visual Project
+        </div>
+      </div>
+      {/* Footer PC End */}
+
       {/* Footer Mobile */}
       <div className="sticky z-50 bottom-0">
         <ul className="flex lg:hidden items-center justify-center bg-white w-auto lg:pl-0 pl-3 p-3">
@@ -78,10 +128,6 @@ const Footer = () => {
         </ul>
       </div>
       {/* Footer Mobile End */}
-
-      {/* Footer PC */}
-      <div></div>
-      {/* Footer PC End */}
     </>
   );
 };
