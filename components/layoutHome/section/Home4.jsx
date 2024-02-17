@@ -16,10 +16,10 @@ const Home4 = () => {
         </div>
       </div>
 
-      <div className="lg:grid lg:grid-cols-3 lg:gap-5 mx-20 mb-24 space-y-8">
-        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 p-4">
+      <div className="md:grid md:grid-cols-3 md:gap-5 mx-20 mb-24 md:space-y-0 space-y-8">
+        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 md:p-7 p-4">
           <div className=" text-center">
-            <div className="bg-red-300 lg:mx-[115px] mx-[50px] p-3 lg:p-2 rounded-xl">
+            <div className="bg-red-300 xl:mx-[115px] md:mx-[60px] lg:mx-[60px] mx-[50px] p-3 lg:p-2 rounded-xl">
               <i className="icon-[ph--users-bold] text-[2.5rem] bg-merah-maron"></i>
             </div>
             <p className="mt-6 font-semibold">Tamu Undangan</p>
@@ -29,69 +29,67 @@ const Home4 = () => {
           </div>
         </div>
 
-        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 p-4">
+        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 md:p-7 p-4">
           <div className="text-center">
-            <div className="bg-red-300 lg:mx-[115px] mx-[50px] p-3 lg:p-2 rounded-xl">
+            <div className="bg-red-300 xl:mx-[115px] md:mx-[60px] lg:mx-[60px] mx-[50px] p-3 lg:p-2 rounded-xl">
               <i className="icon-[ion--book-outline] text-[2.5rem] bg-merah-maron"></i>
             </div>
             <p className="mt-6 font-semibold">Buku Tamu</p>
             <p className="mt-2">
-              Ketahui teman / kerabat kamu <br /> yang dapat hadir dan tidak
+              Ketahui teman / kerabat kamu yang dapat hadir dan tidak hadir
             </p>
           </div>
         </div>
 
-        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 p-4">
+        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 md:p-7 p-4">
           <div className="text-center">
-            <div className="bg-red-300 lg:mx-[115px] mx-[50px] p-3 lg:p-2 rounded-xl">
+            <div className="bg-red-300 xl:mx-[115px] md:mx-[60px] lg:mx-[60px] mx-[50px] p-3 lg:p-2 rounded-xl">
               <i className="icon-[bi--envelope-heart] text-[2.5rem] bg-merah-maron"></i>
             </div>
             <p className="mt-6 font-semibold">Amplop Digital</p>
             <p className="mt-2">
-              Tamu undangan dapat memberikan <br /> amplop secara langsung
+              Tamu undangan dapat memberikan amplop secara langsung
             </p>
           </div>
         </div>
 
-        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 p-4">
+        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 md:p-7 p-4">
           <div className="text-center">
-            <div className="bg-red-300 lg:mx-[115px] mx-[50px] p-3 lg:p-2 rounded-xl">
+            <div className="bg-red-300 xl:mx-[115px] md:mx-[60px] lg:mx-[60px] mx-[50px] p-3 lg:p-2 rounded-xl">
               <i className="icon-[ph--map-pin] text-[2.5rem] bg-merah-maron"></i>
             </div>
             <p className="mt-6 font-semibold">Alamat Acara</p>
-            <p className="mt-2">
-              Tamu undangan mendapat petunjuk <br /> lokasi acara berlangsung
-            </p>
+            <p className="mt-2">Tamu undangan mendapat petunjuk lokasi acara</p>
           </div>
         </div>
 
-        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 p-4">
+        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 md:p-7 p-4">
           <div className="text-center">
-            <div className="bg-red-300 lg:mx-[115px] mx-[50px] p-3 lg:p-2 rounded-xl">
+            <div className="bg-red-300 xl:mx-[115px] md:mx-[60px] lg:mx-[60px] mx-[50px] p-3 lg:p-2 rounded-xl">
               <i className="icon-[ph--images] text-[2.5rem] bg-merah-maron"></i>
             </div>
             <p className="mt-6 font-semibold">Galeri Foto</p>
             <p className="mt-2">
-              Bagikan moment bahagiamu <br /> kepada tamu undangan
+              Bagikan moment bahagiamu kepada tamu undangan
             </p>
           </div>
         </div>
 
-        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 p-4">
+        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 md:p-7 p-4">
           <div className="text-center">
-            <div className="bg-red-300 lg:mx-[115px] mx-[50px] p-3 lg:p-2 rounded-xl">
+            <div className="bg-red-300 xl:mx-[115px] md:mx-[60px] lg:mx-[60px] mx-[50px] p-3 lg:p-2 rounded-xl">
               <i className="bx bx-music text-[2.5rem] text-merah-maron"></i>
             </div>
             <p className="mt-6 font-semibold">Background Musik</p>
             <p className="mt-2">
-              Warna undangan kamu dengan <br /> kesukaanmu agar lebih romantis
+              Warnai undangan kamu dengan kesukaanmu agar lebih romantis
             </p>
           </div>
         </div>
 
-        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 p-4">
+        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 md:p-7 p-4">
           <div className="text-center">
-            <div className="bg-red-300 lg:mx-[115px] mx-[50px] p-3 lg:p-2 rounded-xl">
+            <div className="bg-red-300 xl:mx-[115px] md:mx-[60px] lg:mx-[60px] mx-[50px] p-3 lg:p-2 rounded-xl">
               <i className="bx bx-time text-[2.5rem] text-merah-maron"></i>
             </div>
             <p className="mt-6 font-semibold">Hitungan Mundur</p>
@@ -101,9 +99,9 @@ const Home4 = () => {
           </div>
         </div>
 
-        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 p-4">
+        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 md:p-7 p-4">
           <div className="text-center">
-            <div className="bg-red-300 lg:mx-[115px] mx-[50px] p-3 lg:p-2 rounded-xl">
+            <div className="bg-red-300 xl:mx-[115px] md:mx-[60px] lg:mx-[60px] mx-[50px] p-3 lg:p-2 rounded-xl">
               <i className="bx bx-share-alt text-[2.5rem] text-merah-maron"></i>
             </div>
             <p className="mt-6 font-semibold">Bagikan Undangan</p>
@@ -113,9 +111,9 @@ const Home4 = () => {
           </div>
         </div>
 
-        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 p-4">
+        <div className="border hover:shadow-2xl ease-out duration-700 rounded-lg lg:p-10 md:p-7 p-4">
           <div className="text-center">
-            <div className="bg-red-300 lg:mx-[115px] mx-[50px] p-3 lg:p-2 rounded-xl">
+            <div className="bg-red-300 xl:mx-[115px] md:mx-[60px] lg:mx-[60px] mx-[50px] p-3 lg:p-2 rounded-xl">
               <i className="bx bx-message-square-detail text-[2.5rem] text-merah-maron"></i>
             </div>
             <p className="mt-6 font-semibold">Kirim Ucapan</p>

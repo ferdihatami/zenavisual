@@ -15,8 +15,8 @@ const Home2 = () => {
       </div>
 
       <div className="mt-10">
-        <div className="lg:flex lg:space-y-0 lg:mx-0 md:mx-[250px] space-y-10 justify-center gap-x-5">
-          <div className="rounded-lg shadow-lg bg-white max-w-sm lg:max-w-[250px]">
+        <div className="md:flex md:space-y-0 lg:mx-0 md:mx-[250px] space-y-10 justify-center gap-x-5">
+          <div className="rounded-lg shadow-lg bg-white max-w-sm md:max-w-[250px]">
             <a href="#!">
               <img className="rounded-t-lg" src="/Image/undangan.jpg" alt="" />
             </a>
