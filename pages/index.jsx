@@ -4,6 +4,7 @@ import Layout from "../components/layoutHome/Layout";
 import Home1 from "../components/layoutHome/section/Home1";
 import Home2 from "../components/layoutHome/section/Home2";
 import Home3 from "../components/layoutHome/section/Home3";
+import Home4 from "../components/layoutHome/section/Home4";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Home1 />
         <Home2 />
         <Home3 />
+        <Home4 />
       </Layout>
     </>
   );

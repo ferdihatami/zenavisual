@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Home2 = () => {
   return (
-    <div className="p-8">
+    <div className="p-8 mb-8">
       <div className="text-center  mt-8">
         <p className="font-medium text-[1.5rem]">
           Mengapa memilih zenavisual.id?
