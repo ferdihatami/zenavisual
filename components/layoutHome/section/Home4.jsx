@@ -24,7 +24,7 @@ const Home4 = () => {
             </div>
             <p className="mt-6 font-semibold">Tamu Undangan</p>
             <p className="mt-2">
-              Menampilkan nama tamu undangan <br /> agar teras lebih dekat
+              Menampilkan nama tamu undangan agar teras lebih dekat
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Home4 = () => {
             </div>
             <p className="mt-6 font-semibold">Buku Tamu</p>
             <p className="mt-2">
-              Ketahui teman / kerabat kamu yang dapat hadir dan tidak hadir
+              Ketahui teman atau kerabat kamu yang dapat hadir dan tidak hadir
             </p>
           </div>
         </div>
