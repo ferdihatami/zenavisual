@@ -18,7 +18,13 @@ const Home2 = () => {
         <div className="md:flex md:space-y-0 lg:mx-0 md:mx-[250px] space-y-10 justify-center gap-x-5">
           <div className="rounded-lg shadow-lg bg-white max-w-sm md:max-w-[250px]">
             <a href="#!">
-              <img className="rounded-t-lg" src="/Image/undangan.jpg" alt="" />
+              <Image
+                className="rounded-t-lg"
+                src="/Image/undangan.jpg"
+                alt="undangan"
+                width={500}
+                height={500}
+              />
             </a>
             <div className="px-5 py-5">
               <button className="text-gray-900 font-medium mb-3 flex gap-x-3 lg:text-[1.2rem] sm:text-[1rem] text-[1.2rem]">
@@ -34,10 +40,12 @@ const Home2 = () => {
 
           <div className="rounded-lg shadow-lg bg-white max-w-sm lg:max-w-[250px] ">
             <a href="#!">
-              <img
+              <Image
                 className="rounded-t-lg"
                 src="/Image/scan.jpg"
                 alt="Scan Undangan"
+                width={500}
+                height={500}
               />
             </a>
             <div className="px-5 py-5">
@@ -54,10 +62,12 @@ const Home2 = () => {
 
           <div className="rounded-lg shadow-lg bg-white max-w-sm lg:max-w-[250px]">
             <a href="#!">
-              <img
+              <Image
                 className="rounded-t-lg"
                 src="/Image/instagram.jpg"
                 alt="Scan Undangan"
+                width={500}
+                height={500}
               />
             </a>
             <div className="px-5 py-5">

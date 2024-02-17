@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import navbar_items from "../assets/JsonData/navbar_items.json";
 
@@ -9,12 +10,12 @@ const Header = () => {
     <div className="">
       <div className="flex xl:gap-x-[150px] md:gap-x-[20px] justify-between items-center bg-white py-4 px-5 font-[poppins] font-normal text-gray-800">
         <Link href={"/"}>
-          <img
+          <Image
             className="cursor-pointer "
             src="/Logo/zenavisual.png"
             alt="zenavisual"
-            width="230"
-            height="50"
+            width={220}
+            height={50}
           />
         </Link>
 

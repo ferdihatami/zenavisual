@@ -118,7 +118,7 @@ const Home4 = () => {
             </div>
             <p className="mt-6 font-semibold">Kirim Ucapan</p>
             <p className="mt-2">
-              Tamu undangan bisa mengirimkan ucapan/do'a secara real time
+              Tamu undangan bisa mengirimkan ucapan secara real time
             </p>
           </div>
         </div>
