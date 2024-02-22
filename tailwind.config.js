@@ -21,7 +21,8 @@ module.exports = {
     },
     fontFamily: {
       'adelia': ['ADELIA', 'cursive'],
-      'hills' : ['HILLS', 'cursive']
+      'hills' : ['HILLS', 'cursive'],
+      'million': ['MILLION', 'cursive']
     }
   }, 
     extend: { 
@@ -33,7 +34,11 @@ module.exports = {
       "merah-gelap": "#BF0426",
       "merah-maron": "#7F151D",
       "merah-bata" : "#400A0F"
-     },},
+     },
+     zIndex: {
+      '100' : '100'
+     }
+    },
      
   },
   plugins: [

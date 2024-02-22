@@ -6,17 +6,38 @@
 
 }
 
+#zena-border {
+  background-image: url('../public/background/flower/border.png') ;
+  background-size: cover;
+  background-position: relative;
+}
+
 .flower {
   background-image: url('../public/background/flower/flower3.png') ;
   background-size: cover;
-  background-position: inline-block;
 
 }
 
 .svg-flow {
   background-image: url('../public/background/flower/svg.png') ;
   background-size: cover;
-  background-position: inline-block;
+
+}
+
+.svg-flow2 {
+  background-image: url('../public/background/flower/svg2.png') ;
+  background-size: cover;
+
+}
+
+.svg-flow3 {
+  background-image: url('../public/background/flower/svg3.png') ;
+  background-size: cover;
+}
+
+.svg-flower1 {
+  background-image: url('../public/background/flower/flower1.png') ;
+  background-size: cover;
 }
 
 .zena-background {
@@ -143,6 +164,11 @@
 @font-face {
   font-family: 'ADELIA';
   src: url('../public/font/adelia.ttf');
+}
+
+@font-face {
+  font-family: 'MILLION';
+  src: url('../public/font/million.otf');
 }
 
 html,
