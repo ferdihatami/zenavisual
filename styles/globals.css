@@ -15,29 +15,35 @@
 .flower {
   background-image: url('../public/background/flower/flower3.png') ;
   background-size: cover;
-
+  background-position: relative;
+  
 }
 
 .svg-flow {
   background-image: url('../public/background/flower/svg.png') ;
   background-size: cover;
+  background-position: relative;
 
 }
 
 .svg-flow2 {
   background-image: url('../public/background/flower/svg2.png') ;
   background-size: cover;
+  background-position: relative;
 
 }
 
 .svg-flow3 {
   background-image: url('../public/background/flower/svg3.png') ;
   background-size: cover;
+  background-position: relative;
 }
 
 .svg-flower1 {
   background-image: url('../public/background/flower/flower1.png') ;
   background-size: cover;
+  background-position: relative;
+
 }
 
 .zena-background {
@@ -306,4 +312,60 @@ tulisan::before{
 
 }
 
+
+
+
+@media (max-width: 375px) {
+  .object {
+    padding-top: 310px;
+    padding-bottom: 310px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+@media (max-width: 375px) {
+  .object {
+    padding-top: 310px;
+    padding-bottom: 310px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+@media (min-width: 390px) {
+  .object2 {
+    padding-top: 380px;
+    padding-bottom: 380px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+
+@media (min-width: 414px) {
+  .object4 {
+    padding-top: 400px;
+    padding-bottom: 400px;
+    padding-left: 145px;
+    padding-right: 145px;
+  }
+}
+
+@media (min-width: 412px) {
+  .object5 {
+    padding-top: 400px;
+    padding-bottom: 400px;
+    padding-left: 145px;
+    padding-right: 145px;
+  }
+}
+
+@media (min-width: 430px) {
+  .object3 {
+    padding-top: 400px;
+    padding-bottom: 400px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
 

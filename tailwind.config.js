@@ -13,6 +13,7 @@ module.exports = {
       '2xl': '6rem',
     },
     screens: {
+      em: '370px',
       sm: '600px',
       md: '728px',
       lg: '984px',
@@ -23,6 +24,10 @@ module.exports = {
       'adelia': ['ADELIA', 'cursive'],
       'hills' : ['HILLS', 'cursive'],
       'million': ['MILLION', 'cursive']
+    },
+    backgroundImage: {
+      'flower1': "url('../public/background/flower3.png)",
+      
     }
   }, 
     extend: { 
