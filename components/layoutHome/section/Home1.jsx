@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
-import ReactAudioPlayer from "react-audio-player";
 
 const Home1 = () => {
+  // const [play, setPlay] = useState("");
+  // const [paused, setPaused] = useState("");
+  // const playRef = useRef();
+  // const toggleButton = () => {
+  //   playRef.current?.play();
+  // };
   return (
     <>
-      <ReactAudioPlayer src="/Music/piano.mp3" autoPlay controls loop />
+      {/* <audio controls autoPlay="autoplay" loop>
+        <source src="/Music/piano.mp3" />
+      </audio> */}
+      {/* <button onClick={toggleButton}>tes</button>  */}
       <div className="bg-merah-cerah bg-opacity-70 lg:grid lg:grid-cols-2 text-white xl:h-[620px] lg:h-[520px] md:h-full">
         <div className="xl:px-12 xl:py-20 px-5 pt-16">
           <p className="xl:text-[3.2rem] lg:text-[2.5rem] md:text-[2.5rem] sm:text-[2.8rem] text-[2rem] font-semibold">

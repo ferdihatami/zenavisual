@@ -1,4 +1,33 @@
 
+#pink-back {
+  background-image: url('../public/background/flower/pink.jpg') ;
+  background-size: cover;
+  background-position: relative;
+
+}
+
+.flower {
+  background-image: url('../public/background/flower/flower3.png') ;
+  background-size: cover;
+  background-position: inline-block;
+
+}
+
+.svg-flow {
+  background-image: url('../public/background/flower/svg.png') ;
+  background-size: cover;
+  background-position: inline-block;
+}
+
+.zena-background {
+  background-color: #f3e2d8;
+}
+
+/* .zen{
+  background-image: url('../public/background/border.png');
+  background-position: inline-block;
+} */
+
 .fade-anim img {
   animation: fadeAnim 0.5s ease-out;
 }
@@ -106,6 +135,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'HILLS';
+  src: url('../public/font/hills.ttf');
+}
+
+@font-face {
+  font-family: 'ADELIA';
+  src: url('../public/font/adelia.ttf');
+}
 
 html,
 body {
