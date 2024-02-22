@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layoutHome/Layout";
 
-const tema = () => {
+const Tema = () => {
   return (
     <>
       <Layout></Layout>
@@ -9,4 +9,4 @@ const tema = () => {
   );
 };
 
-export default tema;
+export default Tema;

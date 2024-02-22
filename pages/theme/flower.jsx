@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-const flower = () => {
+const Flower = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -48,4 +48,4 @@ const flower = () => {
   );
 };
 
-export default flower;
+export default Flower;
