@@ -324,6 +324,11 @@ tulisan::before{
     left: 70px;
     right: 70px;
   }
+  .obj8-page2 {
+    padding-top: 170px;
+    padding-left: 27px;
+    padding-right: 27px;
+  }
 }
 
 @media (min-width: 375px) {
@@ -332,6 +337,11 @@ tulisan::before{
     bottom: 80px;
     left: 120px;
     right: 120px;
+  }
+  .obj-page2 {
+    padding-top: 170px;
+    padding-left: 45px;
+    padding-right: 45px;
   }
 }
 
@@ -342,6 +352,11 @@ tulisan::before{
     left: 120px;
     right: 120px;
   }
+  .obj6-page2 {
+    padding-top: 220px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 @media (min-width: 390px) {
@@ -350,6 +365,11 @@ tulisan::before{
     bottom: 190px;
     left: 130px;
     right: 130px;
+  }
+  .obj2-page2 {
+    padding-top: 260px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
 }
 
@@ -360,6 +380,11 @@ tulisan::before{
     left: 145px;
     right: 145px;
   }
+  .obj4-page2 {
+    padding-top: 280px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 }
 
 @media (min-width: 412px) {
@@ -368,6 +393,11 @@ tulisan::before{
     bottom: 240px;
     left: 145px;
     right: 145px;
+  }
+  .obj5-page2 {
+    padding-top: 300px;
+    padding-left: 66px;
+    padding-right: 66px;
   }
 }
 
@@ -378,6 +408,11 @@ tulisan::before{
     left: 150px;
     right: 150px;
   }
+  .obj3-page2 {
+    padding-top: 340px;
+    padding-left: 68px;
+    padding-right: 68px;
+  }
 }
 @media (min-width: 600px) {
   .object7 {
@@ -386,8 +421,8 @@ tulisan::before{
     left: 100px;
     right: 100px;
   }
-  .object7-page2 {
-    padding-top: 170px;
+  .obj7-page2 {
+    padding-top: 200px;
     padding-left: 50px;
     padding-right: 50px;
   }

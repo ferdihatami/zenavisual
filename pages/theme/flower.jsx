@@ -88,7 +88,7 @@ const Flower = () => {
               alt=""
             />
           </div>
-          <div className="text-center space-y-3 object7-page2">
+          <div className="relative z-10 text-center space-y-3 obj8-page2 obj7-page2 obj6-page2 obj5-page2 obj4-page2 obj3-page2 obj2-page2 obj-page2">
             <p>
               وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا
               لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً
