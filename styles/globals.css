@@ -315,57 +315,81 @@ tulisan::before{
 
 
 
-@media (max-width: 375px) {
-  .object {
-    padding-top: 310px;
-    padding-bottom: 310px;
-    padding-left: 120px;
-    padding-right: 120px;
+
+
+@media (min-width: 280px) {
+  .object8 {
+    top: 290px;
+    bottom: 87px;
+    left: 70px;
+    right: 70px;
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .object {
-    padding-top: 310px;
-    padding-bottom: 310px;
-    padding-left: 120px;
-    padding-right: 120px;
+    top: 310px;
+    bottom: 80px;
+    left: 120px;
+    right: 120px;
+  }
+}
+
+@media (min-width: 360px) {
+  .object6 {
+    top: 300px;
+    bottom: 165px;
+    left: 120px;
+    right: 120px;
   }
 }
 
 @media (min-width: 390px) {
   .object2 {
-    padding-top: 380px;
-    padding-bottom: 380px;
-    padding-left: 130px;
-    padding-right: 130px;
+    top: 380px;
+    bottom: 190px;
+    left: 130px;
+    right: 130px;
   }
 }
 
 @media (min-width: 414px) {
   .object4 {
-    padding-top: 400px;
-    padding-bottom: 400px;
-    padding-left: 145px;
-    padding-right: 145px;
+    top: 400px;
+    bottom: 220px;
+    left: 145px;
+    right: 145px;
   }
 }
 
 @media (min-width: 412px) {
   .object5 {
-    padding-top: 400px;
-    padding-bottom: 400px;
-    padding-left: 145px;
-    padding-right: 145px;
+    top: 400px;
+    bottom: 240px;
+    left: 145px;
+    right: 145px;
   }
 }
 
 @media (min-width: 430px) {
   .object3 {
-    padding-top: 400px;
-    padding-bottom: 400px;
-    padding-left: 150px;
-    padding-right: 150px;
+    top: 400px;
+    bottom: 258px;
+    left: 150px;
+    right: 150px;
+  }
+}
+@media (min-width: 600px) {
+  .object7 {
+    top: 300px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+  }
+  .object7-page2 {
+    padding-top: 170px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
