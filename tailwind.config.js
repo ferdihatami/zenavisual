@@ -23,7 +23,8 @@ module.exports = {
     fontFamily: {
       'adelia': ['ADELIA', 'cursive'],
       'hills' : ['HILLS', 'cursive'],
-      'million': ['MILLION', 'cursive']
+      'million': ['MILLION', 'cursive'],
+      'julio': ['JULIO', 'cursive']
     },
     backgroundImage: {
       'flower1': "url('../public/background/flower3.png)",

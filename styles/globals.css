@@ -177,6 +177,11 @@
   src: url('../public/font/million.otf');
 }
 
+@font-face {
+  font-family: 'JULIO';
+  src: url('../public/font/julio.ttf');
+}
+
 html,
 body {
   padding: 0;
@@ -329,6 +334,12 @@ tulisan::before{
     padding-left: 27px;
     padding-right: 27px;
   }
+  .obj8-page3 {
+    inset : 134px 0px 0px 75px
+    }
+    .txt8-page3 {
+      /* padding-top: 260px; */
+    }
 }
 
 @media (min-width: 375px) {
@@ -342,6 +353,12 @@ tulisan::before{
     padding-top: 170px;
     padding-left: 45px;
     padding-right: 45px;
+  }
+  .obj-page3 {
+    inset : 150px 0px 0px 125px
+  }
+  .txt-page3 {
+    padding-top: 170px;
   }
 }
 
@@ -357,6 +374,12 @@ tulisan::before{
     padding-left: 40px;
     padding-right: 40px;
   }
+  .obj6-page3 {
+    inset : 180px 0px 0px 115px
+    }
+  .txt6-page3 {
+     padding-top: 200px;
+  }
 }
 
 @media (min-width: 390px) {
@@ -370,6 +393,12 @@ tulisan::before{
     padding-top: 260px;
     padding-left: 55px;
     padding-right: 55px;
+  }
+  .obj2-page3 {
+    inset : 230px 0px 0px 130px
+    }
+  .txt2-page3 {
+    padding-top: 260px;
   }
 }
 
@@ -385,6 +414,12 @@ tulisan::before{
     padding-left: 60px;
     padding-right: 60px;
   }
+  .obj4-page3 {
+    inset : 250px 0px 0px 140px
+    }
+  .txt4-page3 {
+    padding-top: 280px;
+  }
 }
 
 @media (min-width: 412px) {
@@ -398,6 +433,13 @@ tulisan::before{
     padding-top: 300px;
     padding-left: 66px;
     padding-right: 66px;
+  }
+  /* top right bottom left */
+  .obj5-page3 {
+  inset : 250px 0px 0px 140px
+  }
+  .txt5-page3 {
+    padding-top: 280px;
   }
 }
 
@@ -413,6 +455,12 @@ tulisan::before{
     padding-left: 68px;
     padding-right: 68px;
   }
+  .obj3-page3 {
+    inset : 250px 0px 0px 150px
+    }
+  .txt3-page3 {
+     padding-top: 270px;
+  }
 }
 @media (min-width: 600px) {
   .object7 {
@@ -426,5 +474,30 @@ tulisan::before{
     padding-left: 50px;
     padding-right: 50px;
   }
+  .obj7-page3 {
+    inset : 150px 0px 0px 127px
+    }
+  .txt7-page3 {
+    padding-top: 180px;
+  }
 }
 
+/* @media (min-width: 540px) {
+  .object9 {
+    top: 330px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+  }
+  .obj9-page2 {
+    padding-top: 230px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .obj9-page3 {
+    inset : 180px 0px 0px 208px
+    }
+    .txt9-page3 {
+      padding-top: 210px;
+    }
+} */

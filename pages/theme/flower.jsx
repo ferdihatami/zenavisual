@@ -33,12 +33,12 @@ const Flower = () => {
           />
         </div>
 
-        <div className="z-10 absolute text-center object8 object7 object6 object5 object4 object3 object2 object">
+        <div className="z-10 absolute text-center object9 object8 object7 object6 object5 object4 object3 object2 object">
           <p className="text-[0.9rem]">THE WEDDING OF</p>
           <div className="mt-5">
-            <p className="text-[1.7rem] font-[million]">FERDI</p>
+            <p className="text-[1.7rem] font-[julio]">Ferdi</p>
             <p className="text-[0.9rem] font-[million]">&</p>
-            <p className="text-[1.7rem] font-[million]">ELIN</p>
+            <p className="text-[1.7rem] font-[julio]">Elin</p>
           </div>
           <div className="mt-4">
             <p className="text-[0.7rem]">Kepada Yth</p>
@@ -88,7 +88,7 @@ const Flower = () => {
               alt=""
             />
           </div>
-          <div className="relative z-10 text-center space-y-3 obj8-page2 obj7-page2 obj6-page2 obj5-page2 obj4-page2 obj3-page2 obj2-page2 obj-page2">
+          <div className="relative z-10 text-center space-y-3 obj9-page2 obj8-page2 obj7-page2 obj6-page2 obj5-page2 obj4-page2 obj3-page2 obj2-page2 obj-page2">
             <p>
               وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا
               لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً
@@ -106,6 +106,65 @@ const Flower = () => {
           </div>
         </div>
         {/* Page 2 End */}
+        {/* Page 3 */}
+        <div
+          className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+          style={{
+            backgroundImage: `url("/background/flower/pink.jpg")`,
+          }}
+        >
+          <div>
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+              src="/background/flower/svg5.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+              src="/background/flower/border.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-20"
+              src="/background/flower/flower2.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+              src="/background/flower/svg4.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+          </div>
+          <div className="">
+            <div
+              className="relative z-50 box-content h-[12rem] w-[8rem]  shadow-lg overflow-hidden rounded-[10rem]
+             obj-page3 obj2-page3 obj3-page3 obj4-page3 obj5-page3 obj6-page3 obj7-page3 obj8-page3 "
+            >
+              <img
+                className="object-cover w-[100%] h-[100%] object-top"
+                src="/background/flower/coba.png"
+                alt=""
+              />
+            </div>
+            <div
+              className="relative pt-[150px] text-center txt-page3 txt2-page3 txt3-page3 txt4-page3 
+            txt5-page3 txt6-page3 txt7-page3 txt8-page3 "
+            >
+              <p className="font-[julio]">Elin</p>
+              <p className="font-[cambria] text-[1.2rem] font-semibold">
+                Eliana Adenin, S.Pd
+              </p>
+              <p className="font-[cambria] text-[1rem] mt-4 px-[4rem]">
+                Putri kedua dari Bapak Parihin dan Ibu Rukhiyah
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* Page 3 End */}
       </div>
       {/* Page Continues End */}
     </>
