@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import Countdown from "../../components/countdown/countdown";
 
 const Flower = () => {
   const [open, setOpen] = useState(false);
@@ -146,25 +148,169 @@ const Flower = () => {
             >
               <img
                 className="object-cover w-[100%] h-[100%] object-top"
-                src="/background/flower/coba.png"
+                src="/background/flower/coba.jpg"
                 alt=""
               />
             </div>
             <div
               className="relative pt-[150px] text-center txt-page3 txt2-page3 txt3-page3 txt4-page3 
-            txt5-page3 txt6-page3 txt7-page3 txt8-page3 "
+            txt5-page3 txt6-page3 txt7-page3 txt8-page3 z-50"
             >
               <p className="font-[julio]">Elin</p>
               <p className="font-[cambria] text-[1.2rem] font-semibold">
                 Eliana Adenin, S.Pd
               </p>
-              <p className="font-[cambria] text-[1rem] mt-4 px-[4rem]">
-                Putri kedua dari Bapak Parihin dan Ibu Rukhiyah
+              <p className="font-[cambria] text-[1rem] mt-1 px-[4rem] mb-3">
+                Putri kedua dari Bapak Parihin dan Ibu Ruhiah
               </p>
+              <Link
+                href={"https://www.instagram.com/"}
+                target="_blank"
+                className="text-[0.7rem] bg-[#e6b2b7] px-2 py-1 rounded-xl"
+              >
+                @elianaadenin
+              </Link>
             </div>
           </div>
         </div>
         {/* Page 3 End */}
+        {/* Page 4  */}
+        <div
+          className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+          style={{
+            backgroundImage: `url("/background/flower/pink.jpg")`,
+          }}
+        >
+          <div>
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+              src="/background/flower/svg5.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+              src="/background/flower/border.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-20"
+              src="/background/flower/flower2.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+              src="/background/flower/svg4.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+          </div>
+          <div className="">
+            <div
+              className="relative z-50 box-content h-[12rem] w-[8rem] shadow-lg overflow-hidden rounded-[10rem]
+             obj-page3 obj2-page3 obj3-page3 obj4-page3 obj5-page3 obj6-page3 obj7-page3 obj8-page3 "
+            >
+              <img
+                className="object-cover w-[100%] h-[100%] object-top"
+                src="/background/flower/coba2.jpg"
+                alt=""
+              />
+            </div>
+            <div
+              className="relative pt-[150px] text-center txt-page3 txt2-page3 txt3-page3 txt4-page3 
+            txt5-page3 txt6-page3 txt7-page3 txt8-page3 z-50"
+            >
+              <p className="font-[julio]">Ferdi</p>
+              <p className="font-[cambria] text-[1.2rem] font-semibold">
+                Alferdian Hatami, S.Pi
+              </p>
+              <p className="font-[cambria] text-[1rem] mt-1 px-[4rem] mb-3">
+                Putra keempat dari Bapak H. Hulaimi dan Ibu Hj. Rauhun
+              </p>
+              <Link
+                href={"https://www.instagram.com/"}
+                target="_blank"
+                className="text-[0.7rem] bg-[#e6b2b7] px-2 py-1 rounded-xl"
+              >
+                @ferdi_hatami
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* Page 4 End */}
+        {/* Page 5 */}
+        <div
+          className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+          style={{
+            backgroundImage: `url("/background/flower/pink.jpg")`,
+          }}
+        >
+          <div>
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+              src="/background/flower/svg6.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+              src="/background/flower/border.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-20"
+              src="/background/flower/svg7.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+            <img
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+              src="/background/flower/flower4.png"
+              style={{ position: "absolute" }}
+              alt=""
+            />
+          </div>
+          <div className="text-center relative z-20 pt-[120px] akadTemp7 akadTemp6 akadTemp5 akadTemp4 akadTemp3 akadTemp2">
+            <p className="font-[julio] text-[1.5rem] font-regular text-[#de919b] font-medium">
+              Akad Nikah
+            </p>
+
+            <div className="grid grid-cols-3 mt-6 mx-auto w-[250px] font-[cambria]">
+              <div className="pl-2">
+                <p className="pt-4">Minggu</p>
+              </div>
+              <div className="border-x border-[#de919b] ">
+                <p className="text-[1.6rem]">16</p>
+                <p>2024</p>
+              </div>
+              <div className="pl-2">
+                <p className="pt-4">Desember</p>
+              </div>
+            </div>
+
+            <div className="text-center mt-5">
+              <p className="font-[calibri] text-[1.1rem]">Pukul 10.00 WITA</p>
+              <p className="pt-5 font-[calibri] text-[1.1rem] font-semibold text-[#de919b]">
+                Lokasi Acara
+              </p>
+              <p className="font-[calibri] font-semibold px-12">
+                Gedung Asrama Haji Embarkasi Provinsi Nusa Tenggara Barat
+              </p>
+              <p className="px-12 font-[calibri]">
+                Jalan Lingkar Selatan, Tanjung Karang, Jempong Baru, Kec.
+                Mataram, Kota Mataram, Nusa Tenggara Barat
+              </p>
+            </div>
+
+            {/* countdown */}
+            <Countdown />
+            {/* countdown End */}
+          </div>
+        </div>
+        {/* Page 5 End */}
       </div>
       {/* Page Continues End */}
     </>

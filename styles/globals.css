@@ -380,6 +380,9 @@ tulisan::before{
   .txt6-page3 {
      padding-top: 200px;
   }
+  .akadTemp6{
+    padding-top: 170px
+  }
 }
 
 @media (min-width: 390px) {
@@ -400,6 +403,9 @@ tulisan::before{
   .txt2-page3 {
     padding-top: 260px;
   }
+  .akadTemp2 {
+    padding-top: 200px;
+  }
 }
 
 @media (min-width: 414px) {
@@ -419,6 +425,9 @@ tulisan::before{
     }
   .txt4-page3 {
     padding-top: 280px;
+  }
+  .akadTemp4 {
+    padding-top: 200px;
   }
 }
 
@@ -441,6 +450,9 @@ tulisan::before{
   .txt5-page3 {
     padding-top: 280px;
   }
+  .akadTemp5{
+    padding-top: 250px
+  }
 }
 
 @media (min-width: 430px) {
@@ -461,6 +473,9 @@ tulisan::before{
   .txt3-page3 {
      padding-top: 270px;
   }
+  .akadTemp3 {
+    padding-top: 240px;
+  }
 }
 @media (min-width: 600px) {
   .object7 {
@@ -479,6 +494,9 @@ tulisan::before{
     }
   .txt7-page3 {
     padding-top: 180px;
+  }
+  .akadTemp7 {
+    padding-top: 140px
   }
 }
 
