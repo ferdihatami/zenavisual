@@ -337,9 +337,21 @@ tulisan::before{
   .obj8-page3 {
     inset : 134px 0px 0px 75px
     }
-    .txt8-page3 {
-      /* padding-top: 260px; */
-    }
+  .maps8-page8 {
+    top: 170px;
+    left: 10px;
+  }
+  .txt8-page8{
+    top: 190px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  .loading8-svg{
+    top: 290px;
+  }
+  .loading8-txt{
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 375px) {
@@ -359,6 +371,19 @@ tulisan::before{
   }
   .txt-page3 {
     padding-top: 170px;
+  }
+  .maps-page8 {
+    top: 140px;
+    left: 60px;
+  }
+  .txt-page8{
+    top: 200px;
+  }
+  .loading-svg{
+    top: 290px;
+  }
+  .loading-txt{
+    margin-top: 10px;
   }
 }
 
@@ -383,6 +408,19 @@ tulisan::before{
   .akadTemp6{
     padding-top: 170px
   }
+  .maps6-page8 {
+    top: 220px;
+    left: 54px;
+  }
+  .txt6-page8{
+    top: 250px;
+  }
+  .loading6-svg{
+    top: 310px;
+  }
+  .loading6-txt{
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 390px) {
@@ -406,6 +444,19 @@ tulisan::before{
   .akadTemp2 {
     padding-top: 200px;
   }
+  .maps2-page8 {
+    top: 215px;
+    left: 70px;
+  }
+  .text2-page8 {
+    top: 260px;
+  }
+  .loading2-svg{
+    top: 360px;
+  }
+  .loading2-txt{
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 414px) {
@@ -428,6 +479,21 @@ tulisan::before{
   }
   .akadTemp4 {
     padding-top: 200px;
+  }
+  .maps4-page8 {
+    top: 215px;
+    left: 80px;
+  }
+  .txt4-page8 {
+    top: 260px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .loading4-svg{
+    top: 380px;
+  }
+  .loading4-txt{
+    margin-top: 10px;
   }
 }
 
@@ -453,6 +519,21 @@ tulisan::before{
   .akadTemp5{
     padding-top: 250px
   }
+  .maps5-page8 {
+    top: 250px;
+    left: 80px;
+  }
+  .txt5-page8{
+    top: 290px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .loading5-svg{
+    top: 410px;
+  }
+  .loading5-txt{
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 430px) {
@@ -476,6 +557,21 @@ tulisan::before{
   .akadTemp3 {
     padding-top: 240px;
   }
+  .maps3-page8 {
+    top: 220px;
+    left: 90px;
+  }
+  .txt3-page8 {
+    top: 280px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .loading3-svg{
+    top: 400px;
+  }
+  .loading3-txt{
+    margin-top: 10px;
+  }
 }
 @media (min-width: 600px) {
   .object7 {
@@ -497,6 +593,21 @@ tulisan::before{
   }
   .akadTemp7 {
     padding-top: 140px
+  }
+  .maps7-page8{
+    top: 160px;
+    left: 66px
+  }
+  .txt7-page8 {
+    top: 190px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .loading7-svg{
+    top: 450px;
+  }
+  .loading7-txt{
+    margin-top: 15px;
   }
 }
 
