@@ -13,7 +13,12 @@ module.exports = {
       '2xl': '6rem',
     },
     screens: {
-      em: '370px',
+      rm: '280px',
+      tm: '360px',
+      em: '375px',
+      ym: '390px',
+      um: '412px',
+      im: '430px',
       sm: '600px',
       md: '728px',
       lg: '984px',
@@ -32,6 +37,20 @@ module.exports = {
     }
   }, 
     extend: { 
+      screens: {
+        rm: '280px',
+        tm: '360px',
+        em: '375px',
+        ym: '390px',
+        um: '412px',
+        om: '414px',
+        im: '430px',
+        sm: '600px',
+        md: '728px',
+        lg: '984px',
+        xl: '1240px',
+        '2xl': '1496px',
+      },
       colors: {
       "dark-purple":"#081A51",
       "light-white": "rgba(255,255,255,0.17)",

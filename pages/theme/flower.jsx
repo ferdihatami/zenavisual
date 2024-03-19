@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Countdown from "../../components/countdown/countdown";
@@ -7,6 +7,8 @@ import Loading from "../../components/loading/loading";
 const Flower = () => {
   const [open, setOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const page2 = useRef();
+  const [scroll, setScroll] = useState("");
 
   useEffect(() => {
     const fakeDataFetch = () => {
@@ -14,22 +16,32 @@ const Flower = () => {
         setIsLoading(false);
       }, 4000);
     };
+
     fakeDataFetch();
   }, []);
+
+  const toggleOpen = () => {
+    setOpen(true);
+    // page2.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const toggleSlide = () => {
+    page2.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <>
       {isLoading ? (
         <Loading />
       ) : (
-        <div className="ease-in duration-500">
+        <div className="ease-in duration-500 ">
           <div
             className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover "
             style={{
               backgroundImage: `url("/background/flower/pink.jpg")`,
             }}
           >
-            <div>
+            <div className="">
               <img
                 className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
                 src="/background/flower/border.png"
@@ -62,18 +74,25 @@ const Flower = () => {
                 <p className="text-[0.7rem]">Bapak/Ibu/Saudara/i</p>
                 <p className="text-[1.4.rem] mt-1">Nama Tamu</p>
                 <button
-                  onClick={(e) => setOpen(true)}
+                  onClick={toggleOpen}
                   className=" mt-4 text-[0.7rem] bg-[#e6b2b7] hover:bg-[#de919b] ease-in duration-200 rounded-full px-3 py-2"
                 >
                   Open Invitation
                 </button>
               </div>
+              <button
+                onClick={toggleSlide}
+                className={open ? "w-[34px] relative top-5 " : "hidden"}
+              >
+                <img className="animate-bounce" src="/image/panah.png" alt="" />
+              </button>
             </div>
           </div>
           {/* Page Continues */}
-          <div className={`${!open ? "hidden" : "show"}`}>
+          <div className={!open ? "hidden" : `overflow`}>
             {/* Page 2  */}
             <div
+              ref={page2}
               className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
               style={{
                 backgroundImage: `url("/background/flower/pink.jpg")`,
@@ -465,6 +484,79 @@ const Flower = () => {
               </div>
             </div>
             {/* Page 7 End */}
+
+            {/* Page 8 */}
+            <div
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+              style={{
+                backgroundImage: `url("/background/flower/pink.jpg")`,
+              }}
+            >
+              <div>
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-30"
+                  src="/background/flower/flower3.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+                  src="/background/flower/border.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-20"
+                  src="/background/flower/svg8.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+                  src="/background/flower/svg9.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+              </div>
+              <div className="space-y-5 bottom-4 relative">
+                <div
+                  className="relative border-4 border-white h-[180px] w-[250px] em:w-[250px] em:h-[180px] rm:w-[200px] rm:h-[130px] z-50 hover:z-[100]
+                rm:inset-10 rm:top-[120px] em:inset-[3.8rem] em:top-[70px] om:inset-[5rem] om:top-[180px] ym:inset-[4.3rem]
+                ym:top-[150px] im:inset-[5.6rem] im:top-[180px] um:inset-[5rem] um:top-[180px] tm:inset-[5rem] tm:top-[160px]
+                sm:inset-[4.2rem] sm:top-[70px]
+
+                "
+                >
+                  <img
+                    className="w-[100%] h-[100%] object-cover hover:scale-150 hover:duration-500 duration-500"
+                    src="/background/flower/moment1.jpg"
+                  />
+                </div>
+                <div
+                  className="relative border-4 border-white h-[180px] w-[250px] em:w-[250px] em:h-[180px] rm:w-[200px] rm:h-[130px] z-50 hover:z-[100]
+                rm:inset-10 rm:top-[120px] em:inset-[3.8rem] em:top-[70px] om:inset-[5rem] om:top-[180px] ym:inset-[4.3rem]
+                ym:top-[150px] im:inset-[5.6rem] im:top-[180px] um:inset-[5rem] um:top-[180px] tm:inset-[5rem] tm:top-[160px]
+                sm:inset-[4.2rem] sm:top-[70px]"
+                >
+                  <img
+                    className="w-[100%] h-[100%] object-cover hover:scale-150 hover:duration-500 duration-500"
+                    src="/background/flower/moment2.jpg"
+                  />
+                </div>
+                <div
+                  className="relative border-4 border-white h-[180px] w-[250px] em:w-[250px] em:h-[180px] rm:w-[200px] rm:h-[130px] z-50 hover:z-[100]
+                rm:inset-10 rm:top-[120px] em:inset-[3.8rem] em:top-[70px] om:inset-[5rem] om:top-[180px] ym:inset-[4.3rem]
+                ym:top-[150px] im:inset-[5.6rem] im:top-[180px] um:inset-[5rem] um:top-[180px] tm:inset-[5rem] tm:top-[160px]
+                sm:inset-[4.2rem] sm:top-[70px]"
+                >
+                  <img
+                    className="w-[100%] h-[100%] object-cover hover:scale-150 hover:duration-500 duration-500"
+                    src="/background/flower/moment1.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            {/* Page 8 End */}
           </div>
           {/* Page Continues End */}
         </div>
