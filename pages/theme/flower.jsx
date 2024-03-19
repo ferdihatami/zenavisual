@@ -84,7 +84,7 @@ const Flower = () => {
                 onClick={toggleSlide}
                 className={open ? "w-[34px] relative top-5 " : "hidden"}
               >
-                <img className="animate-bounce" src="/image/panah.png" alt="" />
+                <img className="animate-bounce" src="/Image/panah.png" alt="" />
               </button>
             </div>
           </div>
