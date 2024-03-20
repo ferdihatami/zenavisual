@@ -3,12 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import Countdown from "../../components/countdown/countdown";
 import Loading from "../../components/loading/loading";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const Flower = () => {
   const [open, setOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const page2 = useRef();
-  const [scroll, setScroll] = useState("");
+  const bniRef = useRef();
+  const [copyMsg, setCopyMsg] = useState("");
 
   useEffect(() => {
     const fakeDataFetch = () => {
@@ -28,6 +30,8 @@ const Flower = () => {
   const toggleSlide = () => {
     page2.current?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const copyBni = (e) => {};
 
   return (
     <>
@@ -557,6 +561,146 @@ const Flower = () => {
               </div>
             </div>
             {/* Page 8 End */}
+
+            {/* Page 9  */}
+            <div
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+              style={{
+                backgroundImage: `url("/background/flower/pink.jpg")`,
+              }}
+            >
+              <div>
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+                  src="/background/flower/svg6.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+                  src="/background/flower/border.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-20"
+                  src="/background/flower/svg8.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover "
+                  src="/background/flower/svg9.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+              </div>
+              <div className="relative text-center top-[140px] space-y-4">
+                <p className="font-[hills] font-regular text-[#de919b]">
+                  Tanda Kasih
+                </p>
+                <p className="font-[roboto] font-regular text-[0.8rem] px-16 opacity-90">
+                  Terimakasih telah menambah kegembiraan pada pernikahan kami
+                  dengan kehadiran dan hadiah yang indah dari anda
+                </p>
+                <div className="relative top-6">
+                  <ul className="space-y-5">
+                    <li className="">
+                      <div
+                        className="relative z-[20] 
+                        flex space-x-5 items-center left-[80px]"
+                      >
+                        <img
+                          className="w-[90px] rounded-xl bg-white border-2 border-blue-400 hover:shadow-xl hover:ease-in hover:duration-500"
+                          src="/Image/BNI.png"
+                          alt="logo BNI"
+                        />
+                        <div className="text-left text-[0.85rem]">
+                          <p>Alferdian Hatami</p>
+                          <p ref={bniRef}>
+                            002394034
+                            <button
+                              onClick={copyBni}
+                              className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300"
+                            >
+                              <i className="bx bx-copy-alt items-center"></i>
+                              {copyMsg}
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className="">
+                      <div
+                        className="relative z-[20] 
+                        flex space-x-5 items-center left-[80px]"
+                      >
+                        <img
+                          className="w-[90px] rounded-xl bg-white border-2 border-blue-400 hover:shadow-xl hover:ease-in hover:duration-500"
+                          src="/Image/BCA.png"
+                          alt="logo BCA"
+                        />
+                        <div className="text-left text-[0.85rem]">
+                          <p>Alferdian Hatami</p>
+                          <p>
+                            002394034
+                            <button className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300">
+                              <i className="bx bx-copy-alt items-center"></i>
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className="">
+                      <div
+                        className="relative z-[20] 
+                        flex space-x-5 items-center left-[80px]"
+                      >
+                        <img
+                          className="w-[90px] rounded-xl bg-white border-2 border-blue-400 hover:shadow-xl hover:ease-in hover:duration-500"
+                          src="/Image/MANDIRI.png"
+                          alt="logo Mandiri"
+                        />
+                        <div className="text-left text-[0.85rem]">
+                          <p>Alferdian Hatami</p>
+                          <p>
+                            002394034
+                            <button className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300">
+                              <i className="bx bx-copy-alt items-center"></i>
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className="">
+                      <div
+                        className="relative z-[20] 
+                        flex space-x-5 items-center left-[80px]"
+                      >
+                        <img
+                          className="w-[90px] rounded-xl bg-white border-2 border-blue-400 hover:shadow-xl hover:ease-in hover:duration-500"
+                          src="/Image/BSI.png"
+                          alt="logo Mandiri"
+                        />
+                        <div className="text-left text-[0.85rem]">
+                          <p>Alferdian Hatami</p>
+                          <p>
+                            002394034
+                            <button className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300">
+                              <i className="bx bx-copy-alt items-center"></i>
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/* Page 9 End */}
           </div>
           {/* Page Continues End */}
         </div>
