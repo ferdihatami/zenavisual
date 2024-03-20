@@ -31,7 +31,19 @@ const Flower = () => {
     page2.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const copyBni = (e) => {};
+  const copyBni = (e) => {
+    const str = document.getElementById("bni").innerText;
+    const el = document.createElement("textarea");
+    el.value = str;
+    el.setAttribute("readonly", "");
+    el.style.position = "absolute";
+    el.style.left = "-9999px";
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    alert(`Copied`);
+  };
 
   return (
     <>
@@ -617,14 +629,13 @@ const Flower = () => {
                         />
                         <div className="text-left text-[0.85rem]">
                           <p>Alferdian Hatami</p>
-                          <p ref={bniRef}>
+                          <p id="bni">
                             002394034
                             <button
                               onClick={copyBni}
                               className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300"
                             >
                               <i className="bx bx-copy-alt items-center"></i>
-                              {copyMsg}
                             </button>
                           </p>
                         </div>
@@ -687,7 +698,7 @@ const Flower = () => {
                         />
                         <div className="text-left text-[0.85rem]">
                           <p>Alferdian Hatami</p>
-                          <p>
+                          <p id="bsi">
                             002394034
                             <button className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300">
                               <i className="bx bx-copy-alt items-center"></i>
