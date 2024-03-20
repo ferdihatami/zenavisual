@@ -604,11 +604,11 @@ const Flower = () => {
                   dengan kehadiran dan hadiah yang indah dari anda
                 </p>
                 <div className="relative top-6">
-                  <ul className="space-y-5">
+                  <ul className="relative space-y-5">
                     <li className="">
                       <div
                         className="relative z-[20] 
-                        flex space-x-5 items-center left-[80px]"
+                        flex flex-row justify-center item-center space-x-5 items-center "
                       >
                         <img
                           className="w-[90px] rounded-xl bg-white border-2 border-blue-400 hover:shadow-xl hover:ease-in hover:duration-500"
@@ -634,7 +634,7 @@ const Flower = () => {
                     <li className="">
                       <div
                         className="relative z-[20] 
-                        flex space-x-5 items-center left-[80px]"
+                        flex flex-row justify-center item-center space-x-5 items-center"
                       >
                         <img
                           className="w-[90px] rounded-xl bg-white border-2 border-blue-400 hover:shadow-xl hover:ease-in hover:duration-500"
@@ -656,7 +656,7 @@ const Flower = () => {
                     <li className="">
                       <div
                         className="relative z-[20] 
-                        flex space-x-5 items-center left-[80px]"
+                        flex flex-row justify-center item-center space-x-5 items-center"
                       >
                         <img
                           className="w-[90px] rounded-xl bg-white border-2 border-blue-400 hover:shadow-xl hover:ease-in hover:duration-500"
@@ -678,7 +678,7 @@ const Flower = () => {
                     <li className="">
                       <div
                         className="relative z-[20] 
-                        flex space-x-5 items-center left-[80px]"
+                        flex flex-row justify-center item-center space-x-5 items-center"
                       >
                         <img
                           className="w-[90px] rounded-xl bg-white border-2 border-blue-400 hover:shadow-xl hover:ease-in hover:duration-500"
