@@ -8,6 +8,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 const Flower = () => {
   const [open, setOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [timeCopy, setTimeCopy] = useState(true);
   const page2 = useRef();
   const bniRef = useRef();
   const [copyMsg, setCopyMsg] = useState("");
@@ -18,7 +19,12 @@ const Flower = () => {
         setIsLoading(false);
       }, 4000);
     };
-
+    // const time = () => {
+    //   setTimeout(() => {
+    //     setTimeCopy(false);
+    //   }, 3000);
+    // };
+    // time();
     fakeDataFetch();
   }, []);
 
@@ -35,14 +41,56 @@ const Flower = () => {
     const str = document.getElementById("bni").innerText;
     const el = document.createElement("textarea");
     el.value = str;
-    el.setAttribute("readonly", "");
-    el.style.position = "absolute";
-    el.style.left = "-9999px";
+    // el.setAttribute("readonly", "");
+    // el.style.position = "absolute";
+    // el.style.left = "-9999px";
     document.body.appendChild(el);
     el.select();
     document.execCommand("copy");
     document.body.removeChild(el);
-    alert(`Copied`);
+    alert(`${str} has been copied`);
+  };
+
+  const copyBca = () => {
+    const str = document.getElementById("bca").innerText;
+    const el = document.createElement("textarea");
+    el.value = str;
+    // el.setAttribute("readonly", "");
+    // el.style.position = "absolute";
+    // el.style.left = "-9999px";
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    alert(`${str} has been copied`);
+  };
+
+  const copyMandiri = () => {
+    const str = document.getElementById("mandiri").innerText;
+    const el = document.createElement("textarea");
+    el.value = str;
+    // el.setAttribute("readonly", "");
+    // el.style.position = "absolute";
+    // el.style.left = "-9999px";
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    alert(`${str} has been copied`);
+  };
+
+  const copyBsi = () => {
+    const str = document.getElementById("bsi").innerText;
+    const el = document.createElement("textarea");
+    el.value = str;
+    // el.setAttribute("readonly", "");
+    // el.style.position = "absolute";
+    // el.style.left = "-9999px";
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    alert(`${str} has been copied`);
   };
 
   return (
@@ -654,9 +702,12 @@ const Flower = () => {
                         />
                         <div className="text-left text-[0.85rem]">
                           <p>Alferdian Hatami</p>
-                          <p>
-                            002394034
-                            <button className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300">
+                          <p id="bca">
+                            001123543
+                            <button
+                              onClick={copyBca}
+                              className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300"
+                            >
                               <i className="bx bx-copy-alt items-center"></i>
                             </button>
                           </p>
@@ -676,9 +727,12 @@ const Flower = () => {
                         />
                         <div className="text-left text-[0.85rem]">
                           <p>Alferdian Hatami</p>
-                          <p>
-                            002394034
-                            <button className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300">
+                          <p id="mandiri">
+                            00332434
+                            <button
+                              onClick={copyMandiri}
+                              className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300"
+                            >
                               <i className="bx bx-copy-alt items-center"></i>
                             </button>
                           </p>
@@ -699,8 +753,11 @@ const Flower = () => {
                         <div className="text-left text-[0.85rem]">
                           <p>Alferdian Hatami</p>
                           <p id="bsi">
-                            002394034
-                            <button className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300">
+                            012344523
+                            <button
+                              onClick={copyBsi}
+                              className="mx-[5px] bg-blue-400 w-[24px] rounded-md h-[20px] hover:bg-blue-500  ease-in duration-300"
+                            >
                               <i className="bx bx-copy-alt items-center"></i>
                             </button>
                           </p>
@@ -712,6 +769,58 @@ const Flower = () => {
               </div>
             </div>
             {/* Page 9 End */}
+
+            {/* Page 10 Start */}
+            <div
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+              style={{
+                backgroundImage: `url("/background/flower/pink.jpg")`,
+              }}
+            >
+              <div>
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-30"
+                  src="/background/flower/svg3.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+                  src="/background/flower/border.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+                  src="/background/flower/svg2.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+                  src="/background/flower/flower1.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+              </div>
+              <div
+                className="relative z-50 px-[40px] text-[2rem] text-center
+               rm:top-[180px] tm:top-[220px] em:top-[220px] ym:top-[280px] um:top-[300px]
+               im:top-[320px] sm:top-[230px]"
+              >
+                <p className="font-[hill] leading-[1.8rem] text-[#de919b] font-bold">
+                  it's our hope and pleasure to have you on our big day
+                </p>
+                <p className="font-[hill] text-[1rem] mt-5 text-[#de919b] italic">
+                  Kind Regards
+                </p>
+
+                <p className="font-[hill] leading-[1.8rem] text-[#de919b] font-bold">
+                  Ferdi & Elin
+                </p>
+              </div>
+            </div>
+            {/* Page 10 End */}
           </div>
           {/* Page Continues End */}
         </div>
