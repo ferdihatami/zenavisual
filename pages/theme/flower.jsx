@@ -809,7 +809,7 @@ const Flower = () => {
                im:top-[320px] sm:top-[230px]"
               >
                 <p className="font-[hill] leading-[1.8rem] text-[#de919b] font-bold">
-                  it's our hope and pleasure to have you on our big day
+                  it&apos;s our hope and pleasure to have you on our big day
                 </p>
                 <p className="font-[hill] text-[1rem] mt-5 text-[#de919b] italic">
                   Kind Regards
