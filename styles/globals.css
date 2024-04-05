@@ -354,6 +354,28 @@ tulisan::before{
   }
 }
 
+@media (min-width:320px) {
+  .object9 {
+    top: 200px;
+    bottom: 0px;
+    left: 50px;
+    right: 50px;
+  }
+  .obj9-page3 {
+    inset : 120px 0px 0px 95px
+  }
+  .akadTemp8{
+    padding-top: 60px
+  }
+  .maps9-page8 {
+    top: 100px;
+    left: 34px;
+  }
+  .txt9-page8 {
+    top: 120px;
+  }
+}
+
 @media (min-width: 375px) {
   .object {
     top: 310px;
@@ -367,7 +389,7 @@ tulisan::before{
     padding-right: 45px;
   }
   .obj-page3 {
-    inset : 150px 0px 0px 125px
+    inset : 160px 0px 0px 125px
   }
   .txt-page3 {
     padding-top: 170px;

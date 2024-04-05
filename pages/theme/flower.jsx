@@ -244,8 +244,8 @@ const Flower = () => {
               </div>
               <div className="">
                 <div
-                  className="relative z-50 box-content h-[12rem] w-[8rem]  shadow-lg overflow-hidden rounded-[10rem]
-             obj-page3 obj2-page3 obj3-page3 obj4-page3 obj5-page3 obj6-page3 obj7-page3 obj8-page3 "
+                  className="relative z-50  box-content h-[12rem] w-[8rem]  shadow-lg overflow-hidden rounded-[10rem]
+             obj-page3 obj2-page3 obj3-page3 obj4-page3 obj5-page3 obj6-page3 obj7-page3 obj8-page3 obj9-page3"
                 >
                   <img
                     className="object-cover w-[100%] h-[100%] object-top"
@@ -311,7 +311,7 @@ const Flower = () => {
               <div className="">
                 <div
                   className="relative z-50 box-content h-[12rem] w-[8rem] shadow-lg overflow-hidden rounded-[10rem]
-             obj-page3 obj2-page3 obj3-page3 obj4-page3 obj5-page3 obj6-page3 obj7-page3 obj8-page3 "
+             obj-page3 obj2-page3 obj3-page3 obj4-page3 obj5-page3 obj6-page3 obj7-page3 obj8-page3 obj9-page3"
                 >
                   <img
                     className="object-cover w-[100%] h-[100%] object-top"
@@ -374,7 +374,7 @@ const Flower = () => {
                   alt=""
                 />
               </div>
-              <div className="text-center relative z-20 pt-[120px] akadTemp7 akadTemp6 akadTemp5 akadTemp4 akadTemp3 akadTemp2">
+              <div className="text-center relative z-20 pt-[120px] akadTemp8 akadTemp7 akadTemp6 akadTemp5 akadTemp4 akadTemp3 akadTemp2">
                 <p className="font-[julio] text-[1.5rem] font-regular text-[#de919b] font-medium">
                   Akad Nikah
                 </p>
@@ -448,7 +448,7 @@ const Flower = () => {
                   alt=""
                 />
               </div>
-              <div className="text-center relative z-20 pt-[120px] akadTemp7 akadTemp6 akadTemp5 akadTemp4 akadTemp3 akadTemp2">
+              <div className="text-center relative z-20 pt-[120px] akadTemp8 akadTemp7 akadTemp6 akadTemp5 akadTemp4 akadTemp3 akadTemp2">
                 <p className="font-[julio] text-[1.5rem] font-regular text-[#de919b] font-medium">
                   Resepsi
                 </p>
@@ -523,7 +523,7 @@ const Flower = () => {
               </div>
               <div
                 className="relative z-20 box-content border-2 border-black w-[250px]  shadow-lg overflow-hidden  rounded-[2rem]
-            maps8-page8 maps7-page8 maps6-page8 maps5-page8 maps4-page8 maps3-page8 maps2-page8 maps-page8 
+            maps9-page8 maps8-page8 maps7-page8 maps6-page8 maps5-page8 maps4-page8 maps3-page8 maps2-page8 maps-page8 
           "
               >
                 <iframe
@@ -532,7 +532,7 @@ const Flower = () => {
                   className="h-[200px] w-[250px] bg-cover bg-top"
                 ></iframe>
               </div>
-              <div className="relative z-20 text-center txt8-page8 txt7-page8 txt6-page8 txt5-page8 txt4-page8 txt3-page8 text2-page8 txt-page8">
+              <div className="relative z-20 text-center txt9-page8 txt8-page8 txt7-page8 txt6-page8 txt5-page8 txt4-page8 txt3-page8 text2-page8 txt-page8">
                 <p className="font-semibold font-[calibri] text-[1.2rem]">
                   Asrama Haji Embarkasi Prov. NTB
                 </p>
@@ -589,7 +589,7 @@ const Flower = () => {
                   className="relative border-4 border-white h-[180px] w-[250px] em:w-[250px] em:h-[180px] rm:w-[200px] rm:h-[130px] z-50 hover:z-[100]
                 rm:inset-10 rm:top-[120px] em:inset-[3.8rem] em:top-[70px] om:inset-[5rem] om:top-[180px] ym:inset-[4.3rem]
                 ym:top-[150px] im:inset-[5.6rem] im:top-[180px] um:inset-[5rem] um:top-[180px] tm:inset-[5rem] tm:top-[160px]
-                sm:inset-[4.2rem] sm:top-[70px]
+                sm:inset-[4.2rem] sm:top-[70px] wm:top-[89px] wm:inset-[3.8rem] 
 
                 "
                 >
@@ -602,7 +602,7 @@ const Flower = () => {
                   className="relative border-4 border-white h-[180px] w-[250px] em:w-[250px] em:h-[180px] rm:w-[200px] rm:h-[130px] z-50 hover:z-[100]
                 rm:inset-10 rm:top-[120px] em:inset-[3.8rem] em:top-[70px] om:inset-[5rem] om:top-[180px] ym:inset-[4.3rem]
                 ym:top-[150px] im:inset-[5.6rem] im:top-[180px] um:inset-[5rem] um:top-[180px] tm:inset-[5rem] tm:top-[160px]
-                sm:inset-[4.2rem] sm:top-[70px]"
+                sm:inset-[4.2rem] sm:top-[70px] wm:top-[89px] wm:inset-[3.8rem]"
                 >
                   <img
                     className="w-[100%] h-[100%] object-cover hover:scale-150 hover:duration-500 duration-500"
@@ -613,7 +613,7 @@ const Flower = () => {
                   className="relative border-4 border-white h-[180px] w-[250px] em:w-[250px] em:h-[180px] rm:w-[200px] rm:h-[130px] z-50 hover:z-[100]
                 rm:inset-10 rm:top-[120px] em:inset-[3.8rem] em:top-[70px] om:inset-[5rem] om:top-[180px] ym:inset-[4.3rem]
                 ym:top-[150px] im:inset-[5.6rem] im:top-[180px] um:inset-[5rem] um:top-[180px] tm:inset-[5rem] tm:top-[160px]
-                sm:inset-[4.2rem] sm:top-[70px]"
+                sm:inset-[4.2rem] sm:top-[70px] wm:top-[89px] wm:inset-[3.8rem]"
                 >
                   <img
                     className="w-[100%] h-[100%] object-cover hover:scale-150 hover:duration-500 duration-500"
@@ -657,7 +657,10 @@ const Flower = () => {
                   alt=""
                 />
               </div>
-              <div className="relative text-center top-[140px] space-y-4">
+              <div
+                className="relative text-center space-y-4 wm:top-[70px] em:top-[120px] om:top-[190px]
+              ym:top-[220px] im:top-[240px] tm:top-[150px] sm:top-[130px] rm:top-[100px]"
+              >
                 <p className="font-[hills] font-regular text-[#de919b]">
                   Tanda Kasih
                 </p>
