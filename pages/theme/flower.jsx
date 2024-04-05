@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Countdown from "../../components/countdown/countdown";
 import Loading from "../../components/loading/loading";
-import { CopyToClipboard } from "react-copy-to-clipboard";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
 
 const Flower = () => {
   const [open, setOpen] = useState(false);
@@ -12,6 +13,7 @@ const Flower = () => {
   const page2 = useRef();
   const bniRef = useRef();
   const [copyMsg, setCopyMsg] = useState("");
+  const [value, setValue] = useState();
 
   useEffect(() => {
     const fakeDataFetch = () => {
@@ -815,12 +817,165 @@ const Flower = () => {
                   Kind Regards
                 </p>
 
-                <p className="font-[hill] leading-[1.8rem] text-[#de919b] font-bold">
+                <p className="font-[hill] leading-[1.8rem] text-[#de919b] font-bold italic">
                   Ferdi & Elin
                 </p>
               </div>
             </div>
             {/* Page 10 End */}
+
+            {/* Page RSVP */}
+            <div
+              className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+              style={{
+                backgroundImage: `url("/background/flower/pink.jpg")`,
+              }}
+            >
+              <div>
+                {/* <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-30"
+                  src="/background/flower/svg3.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                /> */}
+                <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+                  src="/background/flower/border.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                />
+                {/* <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover"
+                  src="/background/flower/svg2.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                /> */}
+                {/* <img
+                  className="h-screen md:h-[680px] sm:max-w-sm w-full mx-auto bg-cover z-10"
+                  src="/background/flower/flower1.png"
+                  style={{ position: "absolute" }}
+                  alt=""
+                /> */}
+              </div>
+              <div
+                className="relative z-50 em:top-[50px] om:top-[130px] ym:top-[100px]
+              im:top-[120px] tm:top-[80px] sm:top-[60px] rm:top-[50px]"
+              >
+                <p className="text-center font-[hills] text-[1.3rem] text-[#de919b] relative ">
+                  RSVP
+                </p>
+
+                <div className="space-y-7 border-2 border-white mt-5 mx-[50px] h-[250px] overflow-y-auto no-scrollbar">
+                  <div className="relative m-3 shadow-xl flex flex-row  space-x-2">
+                    <img
+                      src="/Image/profile.png"
+                      alt="profile"
+                      className="w-[50px] h-[50px] bg-white rounded-full object-cover items-center mt-1"
+                    />
+                    <div className="leading-[1.3rem]">
+                      <div className="text-[0.9rem] flex flex-row gap-x-2">
+                        <p className="font-bold ">Nina Carolina</p>
+                        <p className="bg-red-300 px-2 text-[0.7rem] font-bold">
+                          Tidak Hadir
+                        </p>
+                      </div>
+                      <p className="text-[0.9rem]">
+                        Selamat berbahagia menempuh hidup baru dan menjadi
+                        keluarga yang SAMAWA
+                      </p>
+                      <p className="text-[0.7rem] mt-[5px]">
+                        21 Maret 2024 at 10.50 PM
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="relative m-3 shadow-xl flex flex-row  space-x-5">
+                    <img
+                      src="/Image/profile.png"
+                      alt="profile"
+                      className="w-[50px] h-[50px] bg-white rounded-full object-cover items-center mt-1"
+                    />
+                    <div className="leading-[1.3rem]">
+                      <div className="text-[0.9rem] flex flex-row gap-x-2">
+                        <p className="font-bold ">Ronalia</p>
+                        <p className="bg-blue-300 px-2 text-[0.7rem] font-bold">
+                          Hadir
+                        </p>
+                      </div>
+                      <p className="text-[0.9rem]">
+                        Selamat Atas Pernikahannya
+                      </p>
+                      <p className="text-[0.7rem] mt-[5px]">
+                        21 Maret 2024 at 10.50 PM
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="relative m-3 shadow-xl flex flex-row  space-x-5">
+                    <img
+                      src="/Image/profile.png"
+                      alt="profile"
+                      className="w-[50px] h-[50px] bg-white rounded-full object-cover items-center mt-1"
+                    />
+                    <div className="leading-[1.3rem]">
+                      <div className="text-[0.9rem] flex flex-row gap-x-2">
+                        <p className="font-bold ">Malarindu</p>
+                        <p className="bg-blue-300 px-2 text-[0.7rem] font-bold">
+                          Hadir
+                        </p>
+                      </div>
+                      <p className="text-[0.9rem]">Alhamdulillah akhirnya</p>
+                      <p className="text-[0.7rem] mt-[5px]">
+                        21 Maret 2024 at 10.50 PM
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="relative rounded-xl flex flex-col justify-center items-center mt-5 bg-white mx-[40px] h-[250px] shadow-lg">
+                  <form action="">
+                    <div className="pt-3">
+                      <input
+                        type="text"
+                        placeholder="Nama Tamu"
+                        className="py-1 px-2 text-[0.9rem] rm:w-[180px] tm:w-[274px] bg-transparent outline-none border border-gray-600"
+                      />
+                    </div>
+                    <div className="pt-3">
+                      <PhoneInput
+                        className="border border-black py-1 px-2 outline-none rm:w-[180px] tm:w-[274px]"
+                        placeholder="Enter phone number"
+                        value={value}
+                        onChange={setValue}
+                      />
+                    </div>
+                    <div className="py-2">
+                      <select
+                        id="kehadiran"
+                        className="bg-transparent border rm:w-[180px] tm:w-[274px] border-gray-600 text-gray-900 text-[0.9rem] rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-1 px-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      >
+                        <option selected className="bg-gray-100">
+                          Kehadiran
+                        </option>
+                        <option value="Hadir">Hadir</option>
+                        <option value="Tidak Hadir">Tidak Hadir</option>
+                      </select>
+                    </div>
+                    <div>
+                      <textarea
+                        placeholder="Pesan..."
+                        className="border-black border outline-none px-1 rm:w-[180px] tm:w-[274px] relative no-scrollbar"
+                        name="pesan"
+                        id=""
+                        // cols="31"
+                        rows="4"
+                      ></textarea>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            {/* Page RSVP End */}
           </div>
           {/* Page Continues End */}
         </div>
