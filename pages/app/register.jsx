@@ -25,10 +25,10 @@ const Register = () => {
           />
         </div>
         <div className="container mt-4 leading-[3.8rem]">
-          <p className="text-[3rem] font-bold font-[roboto]">Register</p>
+          <p className="text-[3rem] font-bold font-sans">Register</p>
         </div>
 
-        <div className="container mt-3 font-[roboto]">
+        <div className="container mt-3 font-sans">
           <p>
             Untuk dapat menikmati layanan dari zenavisual.id silahkan membuat
             akun terlebih dahulu

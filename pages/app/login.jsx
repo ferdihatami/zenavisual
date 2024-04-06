@@ -26,10 +26,10 @@ const Login = () => {
         </div>
         {/* <hr className="border-2 border-t" /> */}
         <div className="container mt-4 leading-[3.8rem]">
-          <p className="text-[3rem] font-bold font-[roboto]">Welcome</p>
-          <p className="text-[3rem] font-bold font-[roboto]">Back</p>
+          <p className="text-[3rem] font-bold font-sans">Welcome</p>
+          <p className="text-[3rem] font-bold font-sans">Back</p>
         </div>
-        <div className="container mt-3 font-[roboto]">
+        <div className="container mt-3 font-sans">
           <p>
             Masukan E-mail beserta kata sandi kamu yang sudah terdaftar di
             zenavisual.id
