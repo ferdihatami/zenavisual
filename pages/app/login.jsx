@@ -29,8 +29,8 @@ const Login = () => {
           <p className="text-[3rem] font-bold font-sans">Welcome</p>
           <p className="text-[3rem] font-bold font-sans">Back</p>
         </div>
-        <div className="container mt-3 font-sans">
-          <p>
+        <div className="container mt-3 font-sans text-[1.1rem]">
+          <p className=" text-gray-500">
             Masukan E-mail beserta kata sandi kamu yang sudah terdaftar di
             zenavisual.id
           </p>
@@ -43,7 +43,7 @@ const Login = () => {
                 </label>
                 <input
                   type="email"
-                  className="focus:outline-merah-cerah border border-black p-2 rounded-lg"
+                  className="focus:outline-merah-cerah border border-black p-3 rounded-lg"
                   placeholder="Masukkan E-mail Kamu"
                 />
               </div>
@@ -54,7 +54,7 @@ const Login = () => {
                 <div className="relative flex flex-wrap items-center">
                   <input
                     type={visible ? "text" : "password"}
-                    className="focus:outline-merah-cerah w-[1%] border-l border-t border-b border-black rounded-l-lg rounded-r-none p-2 flex flex-auto"
+                    className="focus:outline-merah-cerah w-[1%] border-l border-t border-b border-black rounded-l-lg rounded-r-none p-3 flex flex-auto"
                     placeholder="Minimal 8 Karakter"
                   />
                   <div className="relative">
@@ -63,9 +63,9 @@ const Login = () => {
                       className="bg-white border-r border-t border-b border-black rounded-r-lg"
                     >
                       {visible ? (
-                        <i className="bx bxs-low-vision text-[2.24rem] right-5 "></i>
+                        <i className="bx bxs-low-vision text-[2.96rem] right-5 "></i>
                       ) : (
-                        <i className="bx bxs-show text-[2.24rem] right-5 "></i>
+                        <i className="bx bxs-show text-[2.96rem] right-5 "></i>
                       )}
                     </div>
                   </div>
@@ -77,7 +77,7 @@ const Login = () => {
               <div className="mt-5 flex flex-col space-y-5">
                 <button
                   type="submit"
-                  className="bg-merah-cerah flex flex-wrap items-center justify-center gap-x-2 text-white p-2 rounded-lg hover:bg-merah-gelap ease-in duration-300"
+                  className="bg-merah-cerah flex flex-wrap items-center justify-center gap-x-2 text-white p-3 rounded-full hover:bg-merah-gelap ease-in duration-300"
                 >
                   Login{" "}
                   <svg

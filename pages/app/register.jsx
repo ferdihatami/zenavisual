@@ -28,10 +28,10 @@ const Register = () => {
           <p className="text-[3rem] font-bold font-sans">Register</p>
         </div>
 
-        <div className="container mt-3 font-sans">
-          <p>
-            Untuk dapat menikmati layanan dari zenavisual.id silahkan membuat
-            akun terlebih dahulu
+        <div className="container mt-3 font-sans text-[1.1rem]">
+          <p className="text-gray-500">
+            Untuk dapat menikmati layanan dari zenavisual silahkan membuat akun
+            terlebih dahulu
           </p>
 
           <div className="mt-6">
@@ -42,8 +42,9 @@ const Register = () => {
                 </label>
                 <input
                   type="text"
-                  className="focus:outline-merah-cerah border border-black p-2 rounded-lg"
+                  className="focus:outline-merah-cerah border border-black p-3 rounded-lg"
                   placeholder="Nama Kamu"
+                  required
                 />
               </div>
 
@@ -61,11 +62,14 @@ const Register = () => {
                   onChange={setValue}
                   inputStyle={{
                     width: "100%",
-                    paddingTop: "20px",
-                    paddingBottom: "20px",
                     borderRadius: "0.5rem",
                     borderColor: "black",
+                    borderImage: "black",
+                    padding: "1.5rem",
+                    paddingLeft: "3rem",
+                    paddingRight: "3rem",
                   }}
+                  required
                 />
               </div>
 
@@ -75,8 +79,33 @@ const Register = () => {
                 </label>
                 <input
                   type="email"
-                  className="focus:outline-merah-cerah border border-black p-2 rounded-lg"
+                  className="focus:outline-merah-cerah border border-black p-3 rounded-lg"
                   placeholder="admin@gmail.com"
+                  required
+                />
+              </div>
+
+              <div className="flex flex-col space-y-2 mt-5">
+                <label htmlFor="" className="required">
+                  Password
+                </label>
+                <input
+                  // type={visible ? "text" : "password"}
+                  className="focus:outline-merah-cerah border border-black rounded-lg  p-3"
+                  placeholder="Minimal 8 Karakter"
+                  required
+                />
+              </div>
+
+              <div className="flex flex-col space-y-2 mt-5">
+                <label htmlFor="" className="required">
+                  Konfirmasi Password
+                </label>
+                <input
+                  // type={visible ? "text" : "password"}
+                  className="focus:outline-merah-cerah border border-black rounded-lg  p-3"
+                  placeholder="Konfirmasi Password"
+                  required
                 />
               </div>
 
@@ -86,7 +115,7 @@ const Register = () => {
                 </label>
                 <input
                   type="email"
-                  className="focus:outline-merah-cerah border border-black p-2 rounded-lg"
+                  className="focus:outline-merah-cerah border border-black p-3 rounded-lg"
                   placeholder="Cth. zenavisual"
                 />
                 <p className="text-gray-500 text-[0.9rem]">
@@ -97,7 +126,7 @@ const Register = () => {
               <div className="flex flex-col space-y-2 mt-5">
                 <button
                   type="submit"
-                  className="bg-merah-cerah flex flex-wrap items-center justify-center gap-x-2 text-white p-2 rounded-lg hover:bg-merah-gelap ease-in duration-300"
+                  className="bg-merah-cerah flex flex-wrap items-center justify-center gap-x-2 text-white p-3 rounded-full hover:bg-merah-gelap ease-in duration-300"
                 >
                   Register
                   <svg
