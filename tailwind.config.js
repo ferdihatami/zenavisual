@@ -3,8 +3,8 @@ const { addDynamicIconSelectors } = require('@iconify/tailwind');
 module.exports = {
   content: [ "./pages/**/*.{js,ts,jsx,tsx}",
   "./components/**/*.{js,ts,jsx,tsx}"],
-  theme: {container: {
-    center: true,
+  theme: {
+    container: {
     padding: {
       DEFAULT: '1rem',
       sm: '2rem',
@@ -13,12 +13,7 @@ module.exports = {
       '2xl': '6rem',
     },
     screens: {
-      rm: '280px',
-      tm: '360px',
-      em: '375px',
-      ym: '390px',
-      um: '412px',
-      im: '430px',
+      rm: '576px',
       sm: '600px',
       md: '728px',
       lg: '984px',
@@ -38,14 +33,7 @@ module.exports = {
   }, 
     extend: { 
       screens: {
-        rm: '280px',
-        wm: '320px',
-        tm: '360px',
-        em: '375px',
-        ym: '390px',
-        um: '412px',
-        om: '414px',
-        im: '430px',
+        rm: '576px',
         sm: '600px',
         md: '728px',
         lg: '984px',

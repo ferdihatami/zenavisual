@@ -658,7 +658,7 @@ const Flower = () => {
                 />
               </div>
               <div
-                className="relative text-center space-y-4 wm:top-[70px] em:top-[120px] om:top-[190px]
+                className="relative text-center space-y-4 wm:top-[100px] em:top-[120px] om:top-[190px]
               ym:top-[220px] im:top-[240px] tm:top-[150px] sm:top-[130px] rm:top-[100px]"
               >
                 <p className="font-[hills] font-regular text-[#de919b]">
@@ -862,7 +862,7 @@ const Flower = () => {
               </div>
               <div
                 className="relative z-50 em:top-[50px] om:top-[130px] ym:top-[100px]
-              im:top-[120px] tm:top-[80px] sm:top-[60px] rm:top-[50px]"
+              im:top-[120px] tm:top-[80px] sm:top-[60px] rm:top-[50px] wm:top-[40px]"
               >
                 <p className="text-center font-[hills] text-[1.3rem] text-[#de919b] relative ">
                   RSVP
