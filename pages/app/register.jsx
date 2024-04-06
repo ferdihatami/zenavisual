@@ -16,25 +16,36 @@ const Register = () => {
       </Head>
 
       <div className="text-gray-800 mb-10">
-        <div className="shadow-md py-2 sticky z-50 top-0 bg-white">
-          <img
-            onClick={() => router.push("/")}
-            className="w-[60vw]"
-            src="/Logo/zenavisual.png"
-            alt=""
-          />
+        <div className="shadow-md py-2 sticky z-50 top-0 bg-white ">
+          <div className="container">
+            <div className="lg:mx-[1rem] md:mx-0 mx-0">
+              <img
+                width={190}
+                height={190}
+                onClick={() => router.push("/")}
+                className="lg:mx-[21.4rem] md:mx-[2rem] mx-0"
+                src="/Logo/zenavisual.png"
+                alt="zenavisual logo"
+              />
+            </div>
+          </div>
         </div>
         <div className="container mt-4 leading-[3.8rem]">
-          <p className="text-[3rem] font-bold font-sans">Register</p>
+          <div className="lg:mx-[2.4rem] mx-0 md:mx-0">
+            <p className="text-[3rem] lg:mx-[21.1rem] md:mx-10 mx-0 font-bold font-sans">
+              Register
+            </p>
+          </div>
         </div>
 
-        <div className="container mt-3 font-sans text-[1.1rem]">
-          <p className="text-gray-500">
-            Untuk dapat menikmati layanan dari zenavisual silahkan membuat akun
-            terlebih dahulu
-          </p>
-
-          <div className="mt-6">
+        <div className="container mt-5 font-sans text-[1.1rem]">
+          <div className="md:mx-10 mx-0 ">
+            <p className="lg:mx-[21.2rem]  text-gray-500 md:mx-10 mx-0">
+              Untuk dapat menikmati layanan dari zenavisual silahkan membuat
+              akun terlebih dahulu
+            </p>
+          </div>
+          <div className="lg:mx-[23.8rem] mt-6 md:mx-10 mx-0 lg:text-[1rem]">
             <form>
               <div className="flex flex-col space-y-2">
                 <label htmlFor="" className="required">

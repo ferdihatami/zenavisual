@@ -16,26 +16,40 @@ const Login = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className="text-gray-800 mb-10">
-        <div className="shadow-md py-2 sticky z-50 top-0 bg-white">
-          <img
-            onClick={() => router.push("/")}
-            className="w-[60vw]"
-            src="/Logo/zenavisual.png"
-            alt=""
-          />
+        <div className="shadow-md py-2 sticky z-50 top-0 bg-white ">
+          <div className="container">
+            <div className="lg:mx-[1rem] md:mx-0 mx-0">
+              <img
+                width={190}
+                height={190}
+                onClick={() => router.push("/")}
+                className="lg:mx-[21.4rem] md:mx-[2rem] mx-0"
+                src="/Logo/zenavisual.png"
+                alt="zenavisual logo"
+              />
+            </div>
+          </div>
         </div>
         {/* <hr className="border-2 border-t" /> */}
-        <div className="container mt-4 leading-[3.8rem]">
-          <p className="text-[3rem] font-bold font-sans">Welcome</p>
-          <p className="text-[3rem] font-bold font-sans">Back</p>
+        <div className="container  mt-4 leading-[3.4rem]">
+          <div className="lg:mx-[2.4rem] mx-0 md:mx-0">
+            <p className="text-[3rem] lg:mx-[21.4rem] md:mx-10 mx-0 font-bold font-sans">
+              Welcome
+            </p>
+            <p className="text-[3rem] lg:mx-[21.4rem] md:mx-10 mx-0 font-bold font-sans">
+              Back
+            </p>
+          </div>
         </div>
-        <div className="container mt-3 font-sans text-[1.1rem]">
-          <p className=" text-gray-500">
-            Masukan E-mail beserta kata sandi kamu yang sudah terdaftar di
-            zenavisual.id
-          </p>
+        <div className=" container mt-5 font-sans text-[1.1rem]">
+          <div className="md:mx-10 mx-0 ">
+            <p className="lg:mx-[21.5rem] md:mx-0 mx-0 text-gray-500 ">
+              Masukan E-mail beserta kata sandi kamu yang sudah terdaftar di
+              zenavisual.id
+            </p>
+          </div>
 
-          <div className="mt-6">
+          <div className="lg:mx-[24rem] mt-6 md:mx-10 mx-0 lg:text-[1rem]">
             <form>
               <div className="flex flex-col space-y-2">
                 <label htmlFor="" className="required">
@@ -43,8 +57,9 @@ const Login = () => {
                 </label>
                 <input
                   type="email"
-                  className="focus:outline-merah-cerah border border-black p-3 rounded-lg"
+                  className="focus:outline-merah-cerah border border-black p-3  rounded-lg"
                   placeholder="Masukkan E-mail Kamu"
+                  required
                 />
               </div>
               <div className="flex flex-col space-y-2 mt-5">
@@ -56,6 +71,7 @@ const Login = () => {
                     type={visible ? "text" : "password"}
                     className="focus:outline-merah-cerah w-[1%] border-l border-t border-b border-black rounded-l-lg rounded-r-none p-3 flex flex-auto"
                     placeholder="Minimal 8 Karakter"
+                    required
                   />
                   <div className="relative">
                     <div
@@ -63,9 +79,9 @@ const Login = () => {
                       className="bg-white border-r border-t border-b border-black rounded-r-lg"
                     >
                       {visible ? (
-                        <i className="bx bxs-low-vision text-[2.96rem] right-5 "></i>
+                        <i className="bx bxs-low-vision text-[2rem] lg:text-[1.8rem] p-[0.575rem] right-5 "></i>
                       ) : (
-                        <i className="bx bxs-show text-[2.96rem] right-5 "></i>
+                        <i className="bx bxs-show text-[2rem] lg:text-[1.8rem] p-[0.575rem] right-5 "></i>
                       )}
                     </div>
                   </div>
