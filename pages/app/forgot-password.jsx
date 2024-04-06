@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 
-const forgotPassword = () => {
+const ForgotPassword = () => {
   const router = useRouter();
   return (
     <>
@@ -58,4 +58,4 @@ const forgotPassword = () => {
   );
 };
 
-export default forgotPassword;
+export default ForgotPassword;
