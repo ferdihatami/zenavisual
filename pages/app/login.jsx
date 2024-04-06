@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import Layout from "../components/layoutHome/Layout";
+import Layout from "../../components/layoutHome/Layout";
 
 const Login = () => {
   const router = useRouter();
@@ -70,7 +70,7 @@ const Login = () => {
                     </div>
                   </div>
                 </div>
-                <Link href={"/"} className="">
+                <Link href={"/app/forgot-password"} className="">
                   <p className="mt-2 hover:underline">Lupa Password ?</p>
                 </Link>
               </div>
@@ -94,7 +94,7 @@ const Login = () => {
                 <div className="text-center">
                   Belum punya akun?&nbsp;
                   <Link
-                    href={"/register"}
+                    href={"/app/register"}
                     className="text-merah-cerah hover:text-merah-gelap ease-in duration-500"
                   >
                     Daftar disini

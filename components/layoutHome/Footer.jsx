@@ -132,7 +132,7 @@ const Footer = () => {
               </div>
             </Link>
 
-            <Link href={"/login"}>
+            <Link href={"/app/login"}>
               <div
                 className={
                   router.pathname == "/login"

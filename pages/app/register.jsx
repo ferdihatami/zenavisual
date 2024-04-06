@@ -113,7 +113,7 @@ const Register = () => {
                 <div className="text-center">
                   Sudah punya akun?&nbsp;
                   <Link
-                    href={"/login"}
+                    href={"/app/login"}
                     className="text-merah-cerah hover:text-merah-gelap ease-in duration-500"
                   >
                     Login disini

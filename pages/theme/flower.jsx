@@ -3,8 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Countdown from "../../components/countdown/countdown";
 import Loading from "../../components/loading/loading";
-import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
 
 const Flower = () => {
   const [open, setOpen] = useState(false);
@@ -944,14 +942,7 @@ const Flower = () => {
                         className="py-1 px-2 text-[0.9rem] rm:w-[180px] tm:w-[274px] bg-transparent outline-none border border-gray-600"
                       />
                     </div>
-                    <div className="pt-3">
-                      <PhoneInput
-                        className="border border-black py-1 px-2 outline-none rm:w-[180px] tm:w-[274px]"
-                        placeholder="Enter phone number"
-                        value={value}
-                        onChange={setValue}
-                      />
-                    </div>
+                    <div className="pt-3"></div>
                     <div className="py-2">
                       <select
                         id="kehadiran"
