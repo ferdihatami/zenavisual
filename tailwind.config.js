@@ -24,7 +24,8 @@ module.exports = {
       'adelia': ['ADELIA', 'cursive'],
       'hills' : ['HILLS', 'cursive'],
       'million': ['MILLION', 'cursive'],
-      'julio': ['JULIO', 'cursive']
+      'julio': ['JULIO', 'cursive'],
+      'roboto': ['ROBOTO', 'sans-serif']
     },
     backgroundImage: {
       'flower1': "url('../public/background/flower3.png)",

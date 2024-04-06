@@ -182,6 +182,11 @@
   src: url('../public/font/julio.ttf');
 }
 
+@font-face {
+  font-family: 'ROBOTO';
+  src: url('../public/font/roboto.ttf');
+}
+
 html,
 body {
   padding: 0;
