@@ -26,12 +26,12 @@ const Login = () => {
         </div>
         {/* <hr className="border-2 border-t" /> */}
         <div className="container mt-4 leading-[3.8rem]">
-          <p className="text-[3rem] font-semibold font-[roboto]">Welcome</p>
-          <p className="text-[3rem] font-semibold font-[roboto]">Back</p>
+          <p className="text-[3rem] font-bold font-[roboto]">Welcome</p>
+          <p className="text-[3rem] font-bold font-[roboto]">Back</p>
         </div>
         <div className="container mt-3 font-[roboto]">
           <p>
-            Masukan E-mail beserta kata sandi anda yang sudah terdaftar di
+            Masukan E-mail beserta kata sandi kamu yang sudah terdaftar di
             zenavisual.id
           </p>
 
@@ -42,9 +42,9 @@ const Login = () => {
                   E-mail
                 </label>
                 <input
-                  type="text"
+                  type="email"
                   className="focus:outline-merah-cerah border border-black p-2 rounded-lg"
-                  placeholder="Masukkan E-mail Anda"
+                  placeholder="Masukkan E-mail Kamu"
                 />
               </div>
               <div className="flex flex-col space-y-2 mt-5">
@@ -54,7 +54,7 @@ const Login = () => {
                 <div className="relative flex flex-wrap items-center">
                   <input
                     type={visible ? "text" : "password"}
-                    className="focus:outline-merah-cerah w-[1%] border-l border-t border-b border-black rounded-l-lg p-2 flex flex-auto"
+                    className="focus:outline-merah-cerah w-[1%] border-l border-t border-b border-black rounded-l-lg rounded-r-none p-2 flex flex-auto"
                     placeholder="Minimal 8 Karakter"
                   />
                   <div className="relative">
@@ -63,9 +63,9 @@ const Login = () => {
                       className="bg-white border-r border-t border-b border-black rounded-r-lg"
                     >
                       {visible ? (
-                        <i className="bx bxs-low-vision text-[2.2rem] right-5 "></i>
+                        <i className="bx bxs-low-vision text-[2.24rem] right-5 "></i>
                       ) : (
-                        <i className="bx bxs-show text-[2.2rem] right-5 "></i>
+                        <i className="bx bxs-show text-[2.24rem] right-5 "></i>
                       )}
                     </div>
                   </div>
@@ -79,7 +79,16 @@ const Login = () => {
                   type="submit"
                   className="bg-merah-cerah flex flex-wrap items-center justify-center gap-x-2 text-white p-2 rounded-lg hover:bg-merah-gelap ease-in duration-300"
                 >
-                  Login <i className="bx bx-right-arrow-alt text-[1rem]"></i>
+                  Login{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path>
+                  </svg>
                 </button>
 
                 <div className="text-center">
@@ -88,7 +97,7 @@ const Login = () => {
                     href={"/register"}
                     className="text-merah-cerah hover:text-merah-gelap ease-in duration-500"
                   >
-                    Daftar disni
+                    Daftar disini
                   </Link>
                 </div>
               </div>

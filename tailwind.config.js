@@ -25,7 +25,8 @@ module.exports = {
       'hills' : ['HILLS', 'cursive'],
       'million': ['MILLION', 'cursive'],
       'julio': ['JULIO', 'cursive'],
-      'roboto': ['ROBOTO', 'sans-serif']
+      'roboto': ['roboto', 'sans-serif'],
+      'montserrat': ['Montserrat', 'sans-serif']
     },
     backgroundImage: {
       'flower1': "url('../public/background/flower3.png)",
