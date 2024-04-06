@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
 const Register = () => {
   const [value, setValue] = useState();
+  const router = useRouter();
 
   return (
     <>

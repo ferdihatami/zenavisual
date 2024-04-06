@@ -14,7 +14,7 @@ const Home1 = () => {
         <source src="/Music/piano.mp3" />
       </audio> */}
       {/* <button onClick={toggleButton}>tes</button>  */}
-      <div className="bg-merah-cerah bg-opacity-70 lg:grid lg:grid-cols-2 text-white xl:h-[620px] lg:h-[520px] md:h-full">
+      <div className="bg-merah-cerah bg-opacity-70 lg:grid lg:grid-cols-2 text-white xl:h-[680px] lg:h-[520px] md:h-full">
         <div className="xl:px-12 xl:py-20 px-5 pt-16">
           <p className="xl:text-[3.2rem] lg:text-[2.5rem] md:text-[2.5rem] sm:text-[2.8rem] text-[2rem] font-semibold">
             Platform Undangan
