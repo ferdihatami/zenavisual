@@ -25,8 +25,8 @@ const Register = () => {
 
         <div className="container mt-3 font-[roboto]">
           <p>
-            Untuk dapat menikmati layanan dari zenavisual.id silahkan untuk
-            membuat akun terlebih dahulu
+            Untuk dapat menikmati layanan dari zenavisual.id silahkan membuat
+            akun terlebih dahulu
           </p>
         </div>
       </div>

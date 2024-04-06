@@ -8,7 +8,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="">
-      <div className="flex xl:gap-x-[150px] md:gap-x-[20px] justify-between items-center bg-white py-4 px-5 font-[poppins] font-normal text-gray-800">
+      <div className="flex xl:gap-x-0 md:gap-x-[20px] justify-between items-center bg-white py-4 px-5 font-[poppins] font-normal text-gray-800">
         <Link href={"/"}>
           <Image
             className="cursor-pointer "

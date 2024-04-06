@@ -79,7 +79,7 @@ const Footer = () => {
       {/* Footer Mobile */}
       <div className="sticky z-50 bottom-0">
         <ul className="flex lg:hidden items-center justify-center bg-white w-auto lg:pl-0 pl-3 p-3">
-          <li className="mx-2 flex sm:space-x-10 space-x-8">
+          <li className="mx-2 flex sm:space-x-0 space-x-8">
             <Link href={"/"} className="">
               <div
                 className={
