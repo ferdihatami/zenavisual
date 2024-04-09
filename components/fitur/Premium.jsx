@@ -27,7 +27,7 @@ const Premium = () => {
       </div>
       <div className="flex py-3 border-b ">
         <IconCentang />
-        <p className="pl-2">Masa Aktif 3 Bulan</p>
+        <p className="pl-2">Masa Aktif 1 Bulan</p>
       </div>
 
       {/* svg silang */}
