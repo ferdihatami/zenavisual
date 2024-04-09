@@ -4,7 +4,7 @@ import IconCentang from "../svg/IconCentang";
 const Platinum = () => {
   return (
     <>
-      <div className="flex  py-3 border-y">
+      <div className="flex py-3 border-y">
         <IconCentang />
         <p className="pl-2">Amplop Digital</p>
       </div>

@@ -640,22 +640,34 @@ tulisan::before{
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
-/* @media (min-width: 540px) {
-  .object9 {
-    top: 330px;
-    bottom: 100px;
-    left: 100px;
-    right: 100px;
-  }
-  .obj9-page2 {
-    padding-top: 230px;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-  .obj9-page3 {
-    inset : 180px 0px 0px 208px
-    }
-    .txt9-page3 {
-      padding-top: 210px;
-    }
-} */
+
+.pricing-label {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+}
+
+.label-name {
+  position: relative;
+  background: #D90D1E;
+  color: #ffff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 90px;
+  transform: rotate(-90deg) translate(-27%)
+}
+
+.label-name::after{
+  content: "";
+  border-top: 20px solid #D90D1E;
+  border-bottom: 20px solid #D90D1E;
+  border-right: 11px solid transparent;
+  border-left: 11px solid transparent;
+  position: absolute;
+  left: -11px;
+  top: 0;
+}
